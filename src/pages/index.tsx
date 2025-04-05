@@ -1,15 +1,26 @@
-import yayJpg from '../assets/yay.jpg';
+import React, { useState, useEffect } from 'react';
+import Hero from '@/components/Hero';
+import About from '@/components/About';
+import Features from '@/components/Features';
+import Services from '@/components/Services';
+import Pricing from '@/components/Pricing';
+import FAQ from '@/components/FAQ';
+import Footer from '@/components/Footer';
+import './index.css';
 
-export default function HomePage() {
+function IndexPage() {
+
   return (
-    <div>
-      <h2>Yay! Welcome to umi!</h2>
-      <p>
-        <img src={yayJpg} width="388" />
-      </p>
-      <p>
-        To get started, edit <code>pages/index.tsx</code> and save to reload.
-      </p>
-    </div>
+    <>
+      <Hero />
+      <About />
+      <Features />
+      <Services />
+      <Pricing />
+      <FAQ />
+      <Footer />
+    </>
   );
 }
+
+export default IndexPage;
