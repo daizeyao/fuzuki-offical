@@ -1,0 +1,82 @@
+const fs = require('fs');
+const path = require('path');
+
+// 定义输入和输出路径
+const productsDir = path.join(__dirname, '../src/assets/products');
+const outputFile = path.join(__dirname, '../src/constants/products.json');
+
+// 解析文件夹内容
+function parseProductsDirectory(dir) {
+  const categories = {};
+
+  // 遍历第一级目录（分类文件夹）
+  const categoryFolders = fs.readdirSync(dir, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .sort((a, b) => a.name.localeCompare(b.name)); // 按文件名排序
+
+  categoryFolders.forEach((category) => {
+    const categoryPath = path.join(dir, category.name);
+    categories[category.name] = [];
+
+    // 遍历分类文件夹中的产品文件夹
+    const productFolders = fs.readdirSync(categoryPath, { withFileTypes: true })
+      .filter((entry) => entry.isDirectory())
+      .sort((a, b) => a.name.localeCompare(b.name)); // 按文件名排序
+
+    productFolders.forEach((product) => {
+      const productPath = path.join(categoryPath, product.name);
+      const productData = {
+        pid: Math.random().toString(36).substr(2, 9), // 随机生成一个9位的ID
+        name: product.name,
+        type: path.basename(categoryPath),
+        certificates: [],
+        diagram: [],
+        show: [],
+        detail: null,
+      };
+
+      // 遍历产品文件夹中的内容
+      const productContents = fs.readdirSync(productPath, { withFileTypes: true })
+        .sort((a, b) => a.name.localeCompare(b.name)); // 按文件名排序
+
+      productContents.forEach((content) => {
+        const contentPath = path.join(productPath, content.name);
+
+        if (content.isDirectory()) {
+          // 解析三个文件夹（certificates、diagram、show）
+          if (['certificates', 'diagram', 'show'].includes(content.name)) {
+            productData[content.name] = fs.readdirSync(contentPath, { withFileTypes: true })
+              .filter((entry) => entry.isFile())
+              .map((file) => file.name)
+              .sort((a, b) => a.localeCompare(b)); // 按文件名排序
+          }
+        } else if (content.isFile() && content.name === 'detail.json') {
+          // 解析 detail.json 文件
+          const detailContent = fs.readFileSync(contentPath, 'utf-8');
+          console.log(detailContent);
+          productData.detail = JSON.parse(detailContent);
+        }
+      });
+
+      // 将解析后的产品数据添加到分类中
+      categories[category.name].push(productData);
+    });
+  });
+
+  return categories;
+}
+
+// 主函数
+function main() {
+  try {
+    const productsData = parseProductsDirectory(productsDir);
+
+    // 写入到 products.json 文件
+    fs.writeFileSync(outputFile, JSON.stringify(productsData, null, 2), 'utf-8');
+    console.log('products.json 文件已成功生成！');
+  } catch (error) {
+    console.error('解析文件夹时出错:', error);
+  }
+}
+
+main();

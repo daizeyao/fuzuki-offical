@@ -1,9 +1,7 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
+  mode: 'jit',
   darkMode: 'class',
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}", ".flowbite-react/class-list.json"],
   theme: {
     extend: {
       colors: {
@@ -33,6 +31,5 @@ module.exports = {
         },
       },
     },
-  },
-  plugins: [],
-} 
+  }
+}

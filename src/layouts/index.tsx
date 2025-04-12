@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { Link, Outlet } from 'umi';
-import styles from './index.less';
 import { ThemeProvider } from '@/context/ThemeContext';
-import Navbar from '@/components/Navbar';
-import Sidebar from '@/components/Sidebar';
+import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
+import './index.css';
+
 export default function Layout() {
 
   const [isOpen, setIsOpen] = useState(false);
