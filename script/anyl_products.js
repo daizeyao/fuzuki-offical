@@ -51,10 +51,13 @@ function parseProductsDirectory(dir) {
               .sort((a, b) => a.localeCompare(b)); // 按文件名排序
           }
         } else if (content.isFile() && content.name === 'detail.json') {
-          // 解析 detail.json 文件
-          const detailContent = fs.readFileSync(contentPath, 'utf-8');
-          console.log(detailContent);
-          productData.detail = JSON.parse(detailContent);
+          try {
+            // 解析 detail.json 文件
+            const detailContent = fs.readFileSync(contentPath, 'utf-8');
+            productData.detail = JSON.parse(detailContent);
+          } catch (error) {
+            console.error(`解析 detail.json 文件时出错: ${contentPath}`, error);
+          }
         }
       });
 

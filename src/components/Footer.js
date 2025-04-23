@@ -48,7 +48,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">更多</h4>
             <ul className="flex flex-col space-y-2">
               <li><a href={TAOBAO_URL} target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-secondary transition-colors">淘宝店铺</a></li>
-              <li><a href={DOUYIN_URL} target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-secondary transition-colors">抖音账号：68287771257</a></li>
+              <li><a href={DOUYIN_URL} target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-secondary transition-colors">抖音账号</a></li>
               <li><a href="/products" className="text-gray-300 hover:text-secondary transition-colors">商品展示</a></li>
               {/* <li><a href="#services" class</li>Name="text-gray-300 hover:text-secondary transition-colors">UI/UX设计</a></li>
               <li><a href="#" className="text-gray-300 hover:text-secondary transition-colors">咨询服务</a></li>

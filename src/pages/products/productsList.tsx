@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useSearchParams } from 'react-router-dom';
 import Footer from '@/components/Footer';
 import { productsData, Product } from '@/constants/productsData';
-import { ALIYUN_OSS_URL } from '@/constants';
+import { ALIYUN_OSS_URL,PRODUCTS_DIR } from '@/constants';
 
 const typeChinese: Record<string, string> = {
   "all": "全部",
@@ -16,7 +16,7 @@ const typeChinese: Record<string, string> = {
 const types = ['all', ...Object.keys(productsData).filter(type => type !== 'other'), 'other'];
 
 function ProductsListPage() {
-  const [type, setType] = useState<string>("all");
+  const [type, setType] = useState<string>("全部");
   const [search, setSearch] = useState<string>("");
   const [products, setProducts] = useState<Product[]>([]);
   const [searchParams] = useSearchParams();
@@ -85,7 +85,7 @@ function ProductsListPage() {
                   : 'bg-gray-200 dark:bg-gray-600 text-gray-800 dark:text-gray-300'
                   }`}
               >
-                {typeChinese[item]}
+                {item}
               </button>
             ))}
           </div>
@@ -111,7 +111,7 @@ function ProductsListPage() {
                   <a href={`products-item?pid=${product.pid}`} target="_blank" rel="noopener noreferrer">
                     <div className="w-full h-64 bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
                       <img
-                        src={`${ALIYUN_OSS_URL}products/${product.type}/${product.name}/show/${product.show[0]}`}
+                        src={`${ALIYUN_OSS_URL}${PRODUCTS_DIR}/${product.type}/${product.name}/show/${product.show[0]}`}
                         alt={product.name}
                         className="max-w-full max-h-full object-contain"
                       />

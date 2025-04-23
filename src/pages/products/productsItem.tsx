@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { ALIYUN_OSS_URL } from '@/constants';
+import { ALIYUN_OSS_URL, PRODUCTS_DIR } from '@/constants';
 import { productsData, Product } from '@/constants/productsData';
 import Footer from '@/components/Footer';
 
@@ -111,7 +111,7 @@ function ProductsItemPage() {
                 {product.show.map((image, index) => (
                   <img
                     key={index}
-                    src={`${ALIYUN_OSS_URL}products/${product.type}/${product.name}/show/${image}`}
+                    src={`${ALIYUN_OSS_URL}${PRODUCTS_DIR}/${product.type}/${product.name}/show/${image}`}
                     alt={`${product.name} - ${index + 1}`}
                     className="w-full h-full object-cover rounded-lg shadow-md aspect-square"
                   />
@@ -143,7 +143,7 @@ function ProductsItemPage() {
               {product.diagram.map((link, index) => (
                 <li key={index}>
                   <a
-                    href={`${ALIYUN_OSS_URL}products/${product.type}/${product.name}/diagram/${link}`}
+                    href={`${ALIYUN_OSS_URL}${PRODUCTS_DIR}/${product.type}/${product.name}/diagram/${link}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 dark:text-blue-400 hover:underline"
