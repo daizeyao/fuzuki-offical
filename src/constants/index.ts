@@ -1,7 +1,7 @@
 export const TAOBAO_URL = "https://shop72851379.taobao.com/";
 export const DOUYIN_URL = "https://v.douyin.com/3626X3JY5tc/";
 export const ALIYUN_OSS_URL = "https://fuzuki-products.oss-cn-hangzhou.aliyuncs.com/";
-export const PRODUCTS_DIR = "products_online";
+export const PRODUCTS_DIR = "products-0502";
 
 export const NAV_ITEMS = [
   {
@@ -9,9 +9,9 @@ export const NAV_ITEMS = [
     path: '/',
     dropdown: [
       { label: '关于我们', href: '/#about' },
+      { label: '产品', href: '/#products' },
       { label: '功能', href: '/#features' },
       { label: '服务', href: '/#services' },
-      { label: '价格', href: '/#pricing' },
       { label: '常见问题', href: '/#faq' },
     ],
   },

@@ -1,8 +1,9 @@
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
 // 定义输入和输出路径
-const productsDir = path.join(__dirname, '../src/assets/products');
+const productsDir = path.join(__dirname, '../../fuzuki-assets/products-0502');
 const outputFile = path.join(__dirname, '../src/constants/products.json');
 
 // 解析文件夹内容
@@ -25,8 +26,9 @@ function parseProductsDirectory(dir) {
 
     productFolders.forEach((product) => {
       const productPath = path.join(categoryPath, product.name);
+      const hash = crypto.createHash('md5').update(product.name).digest('hex');
       const productData = {
-        pid: Math.random().toString(36).substr(2, 9), // 随机生成一个9位的ID
+        pid: hash, // 使用名称的哈希值作为ID
         name: product.name,
         type: path.basename(categoryPath),
         certificates: [],
@@ -54,7 +56,24 @@ function parseProductsDirectory(dir) {
           try {
             // 解析 detail.json 文件
             const detailContent = fs.readFileSync(contentPath, 'utf-8');
-            productData.detail = JSON.parse(detailContent);
+            const parsedDetail = JSON.parse(detailContent);
+            if (parsedDetail['priority'] && parsedDetail['priority'] !== 1) {
+              console.log(`detail.json 中的 priority : ${parsedDetail['priority']}`);
+            }
+            // parsedDetail['priority'] = 1;
+
+            // 删除同目录下的 formatted_detail.json 文件（如果存在）
+            // const formattedDetailPath = path.join(productPath, 'formatted_detail.json');
+            // if (fs.existsSync(formattedDetailPath)) {
+            //   fs.unlinkSync(formattedDetailPath);
+            //   console.log(`Deleted formatted_detail.json at: ${formattedDetailPath}`);
+            // }
+
+            // 格式化 detail.json 并重写原文件
+            fs.writeFileSync(contentPath, JSON.stringify(parsedDetail, null, 2), 'utf-8');
+            // console.log(`Formatted detail.json written to: ${contentPath}`);
+
+            productData.detail = parsedDetail;
           } catch (error) {
             console.error(`解析 detail.json 文件时出错: ${contentPath}`, error);
           }

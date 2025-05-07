@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useSearchParams } from 'react-router-dom';
 import Footer from '@/components/Footer';
 import { productsData, Product } from '@/constants/productsData';
-import { ALIYUN_OSS_URL,PRODUCTS_DIR } from '@/constants';
+import { ALIYUN_OSS_URL, PRODUCTS_DIR } from '@/constants';
 
 const typeChinese: Record<string, string> = {
   "all": "全部",
@@ -15,10 +15,13 @@ const typeChinese: Record<string, string> = {
 
 const types = ['all', ...Object.keys(productsData).filter(type => type !== 'other'), 'other'];
 
+const ITEMS_PER_PAGE = 12; // Number of items per page
+
 function ProductsListPage() {
   const [type, setType] = useState<string>("全部");
   const [search, setSearch] = useState<string>("");
   const [products, setProducts] = useState<Product[]>([]);
+  const [currentPage, setCurrentPage] = useState<number>(1);
   const [searchParams] = useSearchParams();
 
   const filterProducts = (type: string, search: string) => {
@@ -36,14 +39,17 @@ function ProductsListPage() {
 
     if (type === "all") {
       const allProducts = Object.values(productsData).flat();
-      return allProducts.filter(filterBySearch);
+      return allProducts.filter(filterBySearch).sort((a, b) => b.detail.priority - a.detail.priority);
     } else {
-      return (productsData[type] || []).filter(filterBySearch);
+      return (productsData[type] || [])
+        .filter(filterBySearch)
+        .sort((a, b) => b.detail.priority - a.detail.priority);
     }
   };
 
   const changeType = (type: string) => {
     setType(type);
+    setCurrentPage(1);
     const filteredProducts = filterProducts(type, search);
     setProducts(filteredProducts);
   };
@@ -60,6 +66,16 @@ function ProductsListPage() {
     setProducts(filteredProducts);
   }, [type, search]);
 
+  const totalPages = Math.ceil(products.length / ITEMS_PER_PAGE);
+  const paginatedProducts = products.slice(
+    (currentPage - 1) * ITEMS_PER_PAGE,
+    currentPage * ITEMS_PER_PAGE
+  );
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+  };
+
   return (
     <>
       <section className="relative bg-light dark:bg-gray-800 py-[12vh] flex items-center overflow-hidden">
@@ -75,17 +91,17 @@ function ProductsListPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-primary dark:text-white mb-4">产品中心</h2>
           </motion.div>
 
-          <div className="flex justify-center mb-8">
+          <div className="flex justify-center mb-8 flex-wrap gap-2">
             {types.map((item) => (
               <button
                 key={item}
                 onClick={() => changeType(item)}
-                className={`px-4 py-2 mx-2 rounded-lg text-sm font-medium ${type === item
+                className={`px-4 py-2 rounded-lg text-sm font-medium ${type === item
                   ? 'bg-primary text-white'
                   : 'bg-gray-200 dark:bg-gray-600 text-gray-800 dark:text-gray-300'
                   }`}
               >
-                {item}
+                {typeChinese[item]}
               </button>
             ))}
           </div>
@@ -100,15 +116,15 @@ function ProductsListPage() {
             />
           </div>
           <div className="flex justify-center items-center">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              {products.map((product: Product, index: number) => (
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              {paginatedProducts.map((product: Product, index: number) => (
                 <motion.div
                   key={index}
                   className="w-full bg-white dark:bg-gray-700 rounded-lg shadow-md overflow-hidden"
                   whileHover={{ y: -5, boxShadow: "0px 5px 10px rgba(0, 0, 0, 0.3)" }}
                   transition={{ duration: 0.3 }}
                 >
-                  <a href={`products-item?pid=${product.pid}`} target="_blank" rel="noopener noreferrer">
+                  <a href={`products-item?pid=${product.pid}`} target="_blank" key={product.pid} rel="noopener noreferrer">
                     <div className="w-full h-64 bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
                       <img
                         src={`${ALIYUN_OSS_URL}${PRODUCTS_DIR}/${product.type}/${product.name}/show/${product.show[0]}`}
@@ -124,6 +140,60 @@ function ProductsListPage() {
                 </motion.div>
               ))}
             </div>
+          </div>
+          <div className="flex justify-center mt-8">
+            {currentPage > 1 && (
+              <button
+                onClick={() => handlePageChange(currentPage - 1)}
+                className="px-4 py-2 mx-1 rounded-lg text-sm font-medium bg-gray-200 dark:bg-gray-600 text-gray-800 dark:text-gray-300"
+              >
+                上一页
+              </button>
+            )}
+            {currentPage > 2 && (
+              <button
+                onClick={() => handlePageChange(1)}
+                className="px-4 py-2 mx-1 rounded-lg text-sm font-medium bg-gray-200 dark:bg-gray-600 text-gray-800 dark:text-gray-300"
+              >
+                1
+              </button>
+            )}
+            {currentPage > 3 && <span className="px-2">...</span>}
+            {Array.from({ length: 3 }, (_, index) => {
+              const page = currentPage - 1 + index;
+              if (page > 0 && page <= totalPages) {
+                return (
+                  <button
+                    key={page}
+                    onClick={() => handlePageChange(page)}
+                    className={`px-4 py-2 mx-1 rounded-lg text-sm font-medium ${currentPage === page
+                      ? 'bg-primary text-white'
+                      : 'bg-gray-200 dark:bg-gray-600 text-gray-800 dark:text-gray-300'
+                      }`}
+                  >
+                    {page}
+                  </button>
+                );
+              }
+              return null;
+            })}
+            {currentPage < totalPages - 2 && <span className="px-2">...</span>}
+            {currentPage < totalPages - 1 && (
+              <button
+                onClick={() => handlePageChange(totalPages)}
+                className="px-4 py-2 mx-1 rounded-lg text-sm font-medium bg-gray-200 dark:bg-gray-600 text-gray-800 dark:text-gray-300"
+              >
+                {totalPages}
+              </button>
+            )}
+            {currentPage < totalPages && (
+              <button
+                onClick={() => handlePageChange(currentPage + 1)}
+                className="px-4 py-2 mx-1 rounded-lg text-sm font-medium bg-gray-200 dark:bg-gray-600 text-gray-800 dark:text-gray-300"
+              >
+                下一页
+              </button>
+            )}
           </div>
         </div>
       </section>

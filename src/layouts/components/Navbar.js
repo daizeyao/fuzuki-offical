@@ -3,6 +3,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import ThemeToggle from '../../components/ThemeToggle';
 import { TAOBAO_URL, NAV_ITEMS } from '@/constants';
 
+
+const logoImg = require('@/assets/logo.png');
+
 const Navbar = ({ toggle }) => {
   const [scrolled, setScrolled] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
@@ -41,12 +44,15 @@ const Navbar = ({ toggle }) => {
       transition={{ duration: 0.5 }}
     >
       <div className="container flex justify-between items-center">
-        <div className="flex items-center">
-          <h1 className="text-2xl font-bold">
-            <span className="text-secondary">富崎</span>
-            <span className="text-black dark:text-white">Fuzuki</span>
-          </h1>
-          <span className="ml-4 text-sm text-gray-500 dark:text-gray-400">Keep Linked</span>
+        <div className="flex items-center space-x-4">
+          <img src={logoImg} alt="Logo" className="w-10 h-auto" />
+          <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-2">
+            <h1 className="text-2xl font-bold flex items-center space-x-2">
+              <span className="text-secondary">富崎</span>
+              <span className="text-black dark:text-white">Fuzuki</span>
+            </h1>
+            <span className="text-sm text-gray-500 dark:text-gray-400 sm:mt-0 mt-1">Keep Linked</span>
+          </div>
         </div>
 
         <div className="hidden lg:flex items-center space-x-8">

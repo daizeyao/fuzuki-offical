@@ -58,7 +58,7 @@ const Hero = () => {
                 
                 <div className="grid grid-cols-2 gap-4 mt-8 w-full max-w-xs">
                   <div className="bg-gray-50 dark:bg-gray-700 p-3 rounded-lg text-center">
-                    <div className="text-xl font-bold text-primary dark:text-white">5k+</div>
+                    <div className="text-xl font-bold text-primary dark:text-white">10w+</div>
                     <div className="text-sm text-gray-500 dark:text-gray-400">已售产品</div>
                   </div>
                   <div className="bg-gray-50 dark:bg-gray-700 p-3 rounded-lg text-center">

@@ -37,9 +37,9 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">公司</h4>
             <ul className="flex flex-col space-y-2">
               <li><a href="/#about" className="text-gray-300 hover:text-secondary transition-colors">关于我们</a></li>
+              <li><a href="/#products" className="text-gray-300 hover:text-secondary transition-colors">产品</a></li>
               <li><a href="/#features" className="text-gray-300 hover:text-secondary transition-colors">功能</a></li>
               <li><a href="/#services" className="text-gray-300 hover:text-secondary transition-colors">服务</a></li>
-              <li><a href="/#pricing" className="text-gray-300 hover:text-secondary transition-colors">价格</a></li>
               <li><a href="/#faq" className="text-gray-300 hover:text-secondary transition-colors">常见问题</a></li>
             </ul>
           </div>
@@ -49,7 +49,7 @@ const Footer = () => {
             <ul className="flex flex-col space-y-2">
               <li><a href={TAOBAO_URL} target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-secondary transition-colors">淘宝店铺</a></li>
               <li><a href={DOUYIN_URL} target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-secondary transition-colors">抖音账号</a></li>
-              <li><a href="/products" className="text-gray-300 hover:text-secondary transition-colors">商品展示</a></li>
+              <li><a href="/products-show" className="text-gray-300 hover:text-secondary transition-colors">商品展示</a></li>
               {/* <li><a href="#services" class</li>Name="text-gray-300 hover:text-secondary transition-colors">UI/UX设计</a></li>
               <li><a href="#" className="text-gray-300 hover:text-secondary transition-colors">咨询服务</a></li>
               <li><a href="#" className="text-gray-300 hover:text-secondary transition-colors">维护支持</a></li> */}

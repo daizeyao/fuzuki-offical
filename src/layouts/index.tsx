@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import './index.css';
 
+
 export default function Layout() {
 
   const [isOpen, setIsOpen] = useState(false);
