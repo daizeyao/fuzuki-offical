@@ -119,7 +119,7 @@ function ProductsItemPage() {
               </Carousel>
             </div>
             <div className="w-full md:w-1/4">
-              <h1 className="text-4xl font-extrabold text-gray-800 dark:text-white mb-6 leading-tight">
+              <h1 className="text-4xl font-extrabold text-gray-800 dark:text-white mb-6 leading-tight break-words">
                 {product.name}
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">

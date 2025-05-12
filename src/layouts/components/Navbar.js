@@ -47,11 +47,11 @@ const Navbar = ({ toggle }) => {
         <div className="flex items-center space-x-4">
           <img src={logoImg} alt="Logo" className="w-10 h-auto" />
           <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-2">
-            <h1 className="text-2xl font-bold flex items-center space-x-2">
-              <span className="text-secondary">富崎</span>
-              <span className="text-black dark:text-white">Fuzuki</span>
+            <h1 className="text-3xl font-bold flex items-center space-x-2">
+              <span className="text-black dark:text-white">富崎</span>
+              {/* <span className="text-black dark:text-white">Fuzuki</span> */}
             </h1>
-            <span className="text-sm text-gray-500 dark:text-gray-400 sm:mt-0 mt-1">Keep Linked</span>
+            {/* <span className="text-sm text-gray-500 dark:text-gray-400 sm:mt-0 mt-1">Keep Linked</span> */}
           </div>
         </div>
 

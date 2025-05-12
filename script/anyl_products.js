@@ -3,7 +3,7 @@ const path = require('path');
 const crypto = require('crypto');
 
 // 定义输入和输出路径
-const productsDir = path.join(__dirname, '../../fuzuki-assets/products-0502');
+const productsDir = path.join(__dirname, '../../fuzuki-assets/products-0512');
 const outputFile = path.join(__dirname, '../src/constants/products.json');
 
 // 解析文件夹内容
@@ -16,6 +16,7 @@ function parseProductsDirectory(dir) {
     .sort((a, b) => a.name.localeCompare(b.name)); // 按文件名排序
 
   categoryFolders.forEach((category) => {
+    console.log(`Processing category: ${category.name}`);
     const categoryPath = path.join(dir, category.name);
     categories[category.name] = [];
 
@@ -23,6 +24,7 @@ function parseProductsDirectory(dir) {
     const productFolders = fs.readdirSync(categoryPath, { withFileTypes: true })
       .filter((entry) => entry.isDirectory())
       .sort((a, b) => a.name.localeCompare(b.name)); // 按文件名排序
+    console.log(`Found ${productFolders.length} products in category: ${category.name}`);
 
     productFolders.forEach((product) => {
       const productPath = path.join(categoryPath, product.name);
