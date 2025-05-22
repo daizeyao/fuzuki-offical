@@ -1,14 +1,34 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 
-const products_adapter = require("@/assets/index_products/adapter.jpg");
-const products_panel = require("@/assets/index_products/panel.jpg");
-const products_wire = require("@/assets/index_products/wire.jpg");
-const products_other = require("@/assets/index_products/other.jpg");
+const productList = [
+  {
+    key: 'adapter',
+    img: require('@/assets/index_products/adapter.jpg'),
+    alt: 'Adapter',
+    label: '面板安装连接器',
+  },
+  {
+    key: 'panel',
+    img: require('@/assets/index_products/panel.jpg'),
+    alt: 'Panel',
+    label: '前置面板接口',
+  },
+  {
+    key: 'wire',
+    img: require('@/assets/index_products/wire.jpg'),
+    alt: 'Wire',
+    label: '面板安装线束',
+  },
+  {
+    key: 'other',
+    img: require('@/assets/index_products/other.jpg'),
+    alt: 'Other',
+    label: '其他',
+  },
+];
 
 const Products = () => {
-  const [isYearly, setIsYearly] = useState(false);
-
   const handleProductClick = (type) => {
     window.location.href = `/products-list?type=${type}`;
   };
@@ -28,22 +48,18 @@ const Products = () => {
             我们提供多种高质量的产品，满足您的不同需求。
           </p>
           <div className="flex flex-wrap justify-center gap-6">
-            <div onClick={() => handleProductClick('adapter')} className="cursor-pointer">
-              <img src={products_adapter} alt="Adapter" className="w-64 h-auto rounded-lg shadow-md" />
-              <div className="text-center mt-2 text-lg text-gray-500 dark:text-gray-400">面板安装连接器</div>
-            </div>
-            <div onClick={() => handleProductClick('panel')} className="cursor-pointer">
-              <img src={products_panel} alt="Panel" className="w-64 h-auto rounded-lg shadow-md" />
-              <div className="text-center mt-2 text-lg text-gray-500 dark:text-gray-400">前置面板接口</div>
-            </div>
-            <div onClick={() => handleProductClick('wire')} className="cursor-pointer">
-              <img src={products_wire} alt="Wire" className="w-64 h-auto rounded-lg shadow-md" />
-              <div className="text-center mt-2 text-lg text-gray-500 dark:text-gray-400">面板安装线束</div>
-            </div>
-            <div onClick={() => handleProductClick('other')} className="cursor-pointer">
-              <img src={products_other} alt="Other" className="w-64 h-auto rounded-lg shadow-md" />
-              <div className="text-center mt-2 text-lg text-gray-500 dark:text-gray-400">其他</div>
-            </div>
+            {productList.map((product) => (
+              <motion.div
+                key={product.key}
+                onClick={() => handleProductClick(product.key)}
+                className="cursor-pointer"
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+              >
+                <img src={product.img} alt={product.alt} className="w-64 h-auto rounded-lg shadow-md" />
+                <div className="text-center mt-2 text-lg text-gray-500 dark:text-gray-400">{product.label}</div>
+              </motion.div>
+            ))}
           </div>
         </motion.div>
       </div>
@@ -51,4 +67,4 @@ const Products = () => {
   );
 };
 
-export default Products; 
+export default Products;
