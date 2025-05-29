@@ -19,10 +19,10 @@ const Hero = () => {
             className="text-center lg:text-left"
           >
             <h1 className="text-4xl md:text-5xl xl:text-6xl xl:leading-tight font-bold text-primary dark:text-white mb-10">
-              高品质、高性能<br />的电子连接解决方案
+              高品质、高性能<br />的工业连接解决方案
             </h1>
             <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-8 max-w-lg mx-auto lg:mx-0">
-              欢迎来到富崎电子，我们是一家专注于电子连接器及转接头研发、生产与销售的高新技术企业。
+              欢迎来到富崎Fuzuki，我们是一家专注于工业连接器及转接头研发、生产与销售的高新技术企业。
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a className="btn" href="#features">了解更多</a>
@@ -54,7 +54,7 @@ const Hero = () => {
                   <i className="fas fa-rocket text-secondary text-4xl"></i>
                 </div>
                 <h3 className="text-2xl font-bold text-primary dark:text-white mb-2">Keep Linked</h3>
-                <p className="text-gray-600 dark:text-gray-300 text-center">专注于电子连接器及转接头研发、生产与销售的高新技术企业</p>
+                <p className="text-gray-600 dark:text-gray-300 text-center">专注于工业连接器及转接头研发、生产与销售的高新技术企业</p>
                 
                 <div className="grid grid-cols-2 gap-4 mt-8 w-full max-w-xs">
                   <div className="bg-gray-50 dark:bg-gray-700 p-3 rounded-lg text-center">

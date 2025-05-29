@@ -24,8 +24,8 @@ const About = () => {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-bold text-primary dark:text-white mb-4">我们的理念</h3>
-            <p className="text-gray-700 dark:text-gray-300 mb-6">欢迎来到富崎电子，我们是一家专注于电子连接器及转接头研发、生产与销售的高新技术企业。</p>
-            <p className="text-gray-700 dark:text-gray-300 mb-6">自成立以来，我们始终秉持着“品质至上、客户为先”的经营理念，致力于为全球客户提供高品质、高性能的电子连接解决方案。</p>
+            <p className="text-gray-700 dark:text-gray-300 mb-6">欢迎来到富崎电子，我们是一家专注于工业连接器及转接头研发、生产与销售的高新技术企业。</p>
+            <p className="text-gray-700 dark:text-gray-300 mb-6">自成立以来，我们始终秉持着“品质至上、客户为先”的经营理念，致力于为全球客户提供高品质、高性能的工业连接解决方案。</p>
             
             <div className="flex flex-wrap gap-4 mt-8">
               <div className="flex items-center">
