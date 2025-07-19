@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { TAOBAO_URL, NAV_ITEMS } from '@/constants';
+import { useIntl } from 'umi';
 
 const Sidebar = ({ isOpen, toggle }) => {
   const [expandedItem, setExpandedItem] = useState(null);
+  const intl = useIntl();
 
   const handleToggleItem = (label) => {
     setExpandedItem((prev) => (prev === label ? null : label));
@@ -37,6 +39,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                 <button
                   className="text-gray-700 dark:text-gray-300 text-2xl focus:outline-none"
                   onClick={toggle}
+                  aria-label={intl.formatMessage({ id: 'navbar.menu' })}
                 >
                   <i className="fas fa-times"></i>
                 </button>
@@ -50,7 +53,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                         className="block py-2 px-4 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md cursor-pointer"
                         onClick={() => handleToggleItem(item.label)}
                       >
-                        {item.label}
+                        {intl.formatMessage({ id: item.label })}
                       </div>
                       <AnimatePresence>
                         {item.dropdown && expandedItem === item.label && (
@@ -68,7 +71,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                                   className="block py-2 px-4 text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md"
                                   onClick={toggle}
                                 >
-                                  {subItem.label}
+                                  {intl.formatMessage({ id: subItem.label })}
                                 </a>
                               </li>
                             ))}
@@ -81,8 +84,13 @@ const Sidebar = ({ isOpen, toggle }) => {
               </nav>
 
               <div className="mt-10">
-                <a className="w-full btn" href={TAOBAO_URL} target="_blank" rel="noopener noreferrer">
-                  立即下单
+                <a
+                  className="w-full btn"
+                  href={TAOBAO_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {intl.formatMessage({ id: 'navbar.orderNow' })}
                 </a>
               </div>
             </div>

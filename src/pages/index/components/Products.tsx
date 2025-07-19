@@ -1,35 +1,38 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
-const productList = [
-  {
-    key: 'adapter',
-    img: require('@/assets/index_products/adapter.jpg'),
-    alt: 'Adapter',
-    label: '面板安装连接器',
-  },
-  {
-    key: 'panel',
-    img: require('@/assets/index_products/panel.jpg'),
-    alt: 'Panel',
-    label: '前置面板接口',
-  },
-  {
-    key: 'wire',
-    img: require('@/assets/index_products/wire.jpg'),
-    alt: 'Wire',
-    label: '面板安装线束',
-  },
-  {
-    key: 'other',
-    img: require('@/assets/index_products/other.jpg'),
-    alt: 'Other',
-    label: '其他',
-  },
-];
+import { useIntl } from 'umi';
 
 const Products = () => {
-  const handleProductClick = (type) => {
+  const intl = useIntl();
+
+  const productList = [
+    {
+      key: 'adapter',
+      img: require('@/assets/index_products/adapter.jpg'),
+      alt: 'Adapter',
+      label: intl.formatMessage({ id: 'products.adapter' }),
+    },
+    {
+      key: 'panel',
+      img: require('@/assets/index_products/panel.jpg'),
+      alt: 'Panel',
+      label: intl.formatMessage({ id: 'products.panel' }),
+    },
+    {
+      key: 'wire',
+      img: require('@/assets/index_products/wire.jpg'),
+      alt: 'Wire',
+      label: intl.formatMessage({ id: 'products.wire' }),
+    },
+    {
+      key: 'other',
+      img: require('@/assets/index_products/other.jpg'),
+      alt: 'Other',
+      label: intl.formatMessage({ id: 'products.other' }),
+    },
+  ];
+
+  const handleProductClick = (type: string) => {
     window.location.href = `/products-list?type=${type}`;
   };
 
@@ -43,9 +46,11 @@ const Products = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-primary dark:text-white mb-4 text-center">产品</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-primary dark:text-white mb-4 text-center">
+            {intl.formatMessage({ id: 'products.title' })}
+          </h2>
           <p className="text-center text-gray-600 dark:text-gray-400 mb-8">
-            我们提供多种高质量的产品，满足您的不同需求。
+            {intl.formatMessage({ id: 'products.subtitle' })}
           </p>
           <div className="flex flex-wrap justify-center gap-6">
             {productList.map((product) => (

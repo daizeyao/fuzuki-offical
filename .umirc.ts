@@ -19,12 +19,16 @@ export default defineConfig({
     },
   ],
   // ssr: {},
+  locale: {
+    default: 'zh-CN',
+    baseSeparator: '-',
+  },
   codeSplitting: {
     jsStrategy: 'granularChunks',
   },
   routes: ROUTES,
   npmClient: "npm",
   tailwindcss: {},
-  plugins: ["@umijs/plugins/dist/tailwindcss"],
+  plugins: ["@umijs/plugins/dist/tailwindcss", '@umijs/plugins/dist/locale'],
   // extraPostCSSPlugins: [require("@tailwindcss/postcss")],
 });

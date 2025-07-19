@@ -4,29 +4,23 @@ import { useSearchParams } from 'react-router-dom';
 import Footer from '@/components/Footer';
 import { productsData, Product } from '@/constants/productsData';
 import { ALIYUN_OSS_URL, PRODUCTS_DIR } from '@/constants';
+import { useIntl } from 'umi';
 
-const typeChinese: Record<string, string> = {
-  "all": "全部",
-  "adapter": "面板安装适配器",
-  "panel": "前置面板接口",
-  "wire": "面板安装线束",
-  "other": "其他",
-};
-
-const types = ['all', ...Object.keys(productsData).filter(type => type !== 'other'), 'other'];
-
-const ITEMS_PER_PAGE = 12; // Number of items per page
+const ITEMS_PER_PAGE = 12;
 
 function ProductsListPage() {
-  const [type, setType] = useState<string>("全部");
-  const [search, setSearch] = useState<string>("");
+  const intl = useIntl();
+  const [type, setType] = useState<string>('all');
+  const [search, setSearch] = useState<string>('');
   const [products, setProducts] = useState<Product[]>([]);
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [searchParams] = useSearchParams();
 
+  const types = ['all', ...Object.keys(productsData).filter((t) => t !== 'other'), 'other'];
+
   const filterProducts = (type: string, search: string) => {
     const searchLower = search.toLowerCase();
-    const filterBySearch = (item: any) => {
+    const filterBySearch = (item: Product) => {
       if (search) {
         return (
           item.name.toLowerCase().includes(searchLower) ||
@@ -37,33 +31,26 @@ function ProductsListPage() {
       return true;
     };
 
-    if (type === "all") {
-      const allProducts = Object.values(productsData).flat();
-      return allProducts.filter(filterBySearch).sort((a, b) => b.detail.priority - a.detail.priority);
-    } else {
-      return (productsData[type] || [])
-        .filter(filterBySearch)
-        .sort((a, b) => b.detail.priority - a.detail.priority);
-    }
+    const all = Object.values(productsData).flat();
+    const filtered = type === 'all' ? all : productsData[type] || [];
+    return filtered.filter(filterBySearch).sort((a, b) => b.detail.priority - a.detail.priority);
   };
 
-  const changeType = (type: string) => {
-    setType(type);
+  const changeType = (newType: string) => {
+    setType(newType);
     setCurrentPage(1);
-    const filteredProducts = filterProducts(type, search);
-    setProducts(filteredProducts);
+    setProducts(filterProducts(newType, search));
   };
 
   useEffect(() => {
-    const typeParam = searchParams.get('type');
-    const searchParam = searchParams.get('search');
-    setType(typeParam || "all");
-    setSearch(searchParam || "");
+    const typeParam = searchParams.get('type') || 'all';
+    const searchParam = searchParams.get('search') || '';
+    setType(typeParam);
+    setSearch(searchParam);
   }, [searchParams]);
 
   useEffect(() => {
-    const filteredProducts = filterProducts(type, search);
-    setProducts(filteredProducts);
+    setProducts(filterProducts(type, search));
   }, [type, search]);
 
   const totalPages = Math.ceil(products.length / ITEMS_PER_PAGE);
@@ -79,7 +66,6 @@ function ProductsListPage() {
   return (
     <>
       <section className="relative bg-light dark:bg-gray-800 py-[12vh] flex items-center overflow-hidden">
-
         <div className="container">
           <motion.div
             className="section-title text-center mb-10"
@@ -88,7 +74,9 @@ function ProductsListPage() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-primary dark:text-white mb-4">产品中心</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-primary dark:text-white mb-4">
+              {intl.formatMessage({ id: 'productsList.title' })}
+            </h2>
           </motion.div>
 
           <div className="flex justify-center mb-8 flex-wrap gap-2">
@@ -101,30 +89,36 @@ function ProductsListPage() {
                   : 'bg-gray-200 dark:bg-gray-600 text-gray-800 dark:text-gray-300'
                   }`}
               >
-                {typeChinese[item]}
+                {intl.formatMessage({ id: `productsList.type.${item}` })}
               </button>
             ))}
           </div>
+
           <div className="flex justify-center items-center mb-8">
             <i className="fas fa-search text-lg mr-2"></i>
             <input
               type="text"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              placeholder="搜索产品..."
+              placeholder={intl.formatMessage({ id: 'productsList.searchPlaceholder' })}
               className="px-4 py-2 w-full max-w-md rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-300 focus:outline-none focus:ring-1 focus:ring-primary"
             />
           </div>
+
           <div className="flex justify-center items-center">
             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              {paginatedProducts.map((product: Product, index: number) => (
+              {paginatedProducts.map((product) => (
                 <motion.div
-                  key={index}
+                  key={product.pid}
                   className="w-full bg-white dark:bg-gray-700 rounded-lg shadow-md overflow-hidden"
-                  whileHover={{ y: -5, boxShadow: "0px 5px 10px rgba(0, 0, 0, 0.3)" }}
+                  whileHover={{ y: -5, boxShadow: '0px 5px 10px rgba(0, 0, 0, 0.3)' }}
                   transition={{ duration: 0.3 }}
                 >
-                  <a href={`products-item?pid=${product.pid}`} target="_blank" key={product.pid} rel="noopener noreferrer">
+                  <a
+                    href={`products-item?pid=${product.pid}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div className="w-full h-64 bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
                       <img
                         src={`${ALIYUN_OSS_URL}${PRODUCTS_DIR}/${product.type}/${product.name}/show/${product.show[0]}`}
@@ -133,21 +127,26 @@ function ProductsListPage() {
                       />
                     </div>
                     <div className="p-4">
-                      <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">{product.name}</h3>
-                      <p className="text-sm text-gray-600 dark:text-gray-300">{product.detail.title}</p>
+                      <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">
+                        {product.name}
+                      </h3>
+                      <p className="text-sm text-gray-600 dark:text-gray-300">
+                        {product.detail.title}
+                      </p>
                     </div>
                   </a>
                 </motion.div>
               ))}
             </div>
           </div>
+
           <div className="flex justify-center mt-8">
             {currentPage > 1 && (
               <button
                 onClick={() => handlePageChange(currentPage - 1)}
                 className="px-4 py-2 mx-1 rounded-lg text-sm font-medium bg-gray-200 dark:bg-gray-600 text-gray-800 dark:text-gray-300"
               >
-                上一页
+                {intl.formatMessage({ id: 'productsList.pagination.prev' })}
               </button>
             )}
             {currentPage > 2 && (
@@ -191,7 +190,7 @@ function ProductsListPage() {
                 onClick={() => handlePageChange(currentPage + 1)}
                 className="px-4 py-2 mx-1 rounded-lg text-sm font-medium bg-gray-200 dark:bg-gray-600 text-gray-800 dark:text-gray-300"
               >
-                下一页
+                {intl.formatMessage({ id: 'productsList.pagination.next' })}
               </button>
             )}
           </div>
@@ -200,6 +199,6 @@ function ProductsListPage() {
       <Footer />
     </>
   );
-};
+}
 
 export default ProductsListPage;

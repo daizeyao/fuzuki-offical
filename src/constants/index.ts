@@ -5,22 +5,22 @@ export const PRODUCTS_DIR = "products-0512";
 
 export const NAV_ITEMS = [
   {
-    label: '首页',
+    label: 'navbar.home',
     path: '/',
     dropdown: [
-      { label: '关于我们', href: '/#about' },
-      { label: '产品', href: '/#products' },
-      { label: '功能', href: '/#features' },
-      { label: '服务', href: '/#services' },
-      { label: '常见问题', href: '/#faq' },
+      { label: 'navbar.about', href: '/#about' },
+      { label: 'navbar.products', href: '/#products' },
+      { label: 'navbar.features', href: '/#features' },
+      { label: 'navbar.services', href: '/#services' },
+      { label: 'navbar.faq', href: '/#faq' },
     ],
   },
   {
-    label: '产品中心',
+    label: 'navbar.products',
     path: '/products-show',
     dropdown: [
-      { label: '常用产品展示', href: '/products-show' },
-      { label: '所有产品', href: '/products-list' },
+      { label: 'navbar.showcase', href: '/products-show' },
+      { label: 'navbar.list', href: '/products-list' },
     ],
   },
 ];

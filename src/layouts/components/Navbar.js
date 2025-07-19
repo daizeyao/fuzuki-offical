@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import ThemeToggle from '../../components/ThemeToggle';
 import { TAOBAO_URL, NAV_ITEMS } from '@/constants';
-
+import { SelectLang, useIntl } from 'umi';
 
 const logoImg = require('@/assets/logo.png');
 
@@ -10,6 +10,7 @@ const Navbar = ({ toggle }) => {
   const [scrolled, setScrolled] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
   const delayTimeout = useRef(null);
+  const intl = useIntl();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -46,13 +47,7 @@ const Navbar = ({ toggle }) => {
       <div className="container flex justify-between items-center">
         <div className="flex items-center space-x-4">
           <img src={logoImg} alt="Logo" className="w-10 h-auto" />
-          <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-2">
-            <h1 className="text-3xl font-bold flex items-center space-x-2">
-              <span className="text-black dark:text-white">富崎</span>
-              {/* <span className="text-black dark:text-white">Fuzuki</span> */}
-            </h1>
-            {/* <span className="text-sm text-gray-500 dark:text-gray-400 sm:mt-0 mt-1">Keep Linked</span> */}
-          </div>
+          <h1 className="text-3xl font-bold text-black dark:text-white">Fuzuki</h1>
         </div>
 
         <div className="hidden lg:flex items-center space-x-8">
@@ -67,7 +62,7 @@ const Navbar = ({ toggle }) => {
                 href={item.path}
                 className="text-gray-700 dark:text-gray-300 hover:text-secondary transition-colors"
               >
-                {item.label}
+                {intl.formatMessage({ id: item.label })}
               </a>
               <AnimatePresence>
                 {openDropdown === item.label && item.dropdown && (
@@ -84,7 +79,7 @@ const Navbar = ({ toggle }) => {
                         href={subItem.href}
                         className="block px-4 py-2 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 text-center"
                       >
-                        {subItem.label}
+                        {intl.formatMessage({ id: subItem.label })}
                       </a>
                     ))}
                   </motion.div>
@@ -96,17 +91,17 @@ const Navbar = ({ toggle }) => {
 
         <div className="flex items-center space-x-4">
           <ThemeToggle />
-
+          <SelectLang />
           <div className="hidden lg:block">
             <a className="btn" href={TAOBAO_URL} target="_blank" rel="noopener noreferrer">
-              立即下单
+              {intl.formatMessage({ id: 'navbar.orderNow' })}
             </a>
           </div>
 
           <button
             className="lg:hidden text-primary dark:text-white"
             onClick={toggle}
-            aria-label="菜单"
+            aria-label={intl.formatMessage({ id: 'navbar.menu' })}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />

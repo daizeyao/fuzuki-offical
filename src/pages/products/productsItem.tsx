@@ -3,6 +3,7 @@ import { useSearchParams } from 'react-router-dom';
 import { ALIYUN_OSS_URL, PRODUCTS_DIR } from '@/constants';
 import { productsData, Product } from '@/constants/productsData';
 import Footer from '@/components/Footer';
+import { useIntl } from 'umi';
 
 const Carousel: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -12,7 +13,6 @@ const Carousel: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const timer = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % totalSlides);
     }, 4000);
-
     return () => clearInterval(timer);
   }, [totalSlides]);
 
@@ -31,47 +31,28 @@ const Carousel: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           className="flex transition-transform duration-500 ease-in-out"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
-          {React.Children.map(children, (child, index) => (
+          {React.Children.map(children, (child) => (
             <div className="w-full flex-shrink-0">{child}</div>
           ))}
         </div>
       </div>
       <button
         onClick={handlePrev}
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800/30 hover:bg-gray-800/50 rounded-full p-2.5 transition-colors"
+        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800/30 hover:bg-gray-800/50 rounded-full p-2.5"
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth="1.5"
-          stroke="currentColor"
-          className="w-6 h-6 text-white"
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-        </svg>
+        <i className="fas fa-chevron-left text-white text-lg" />
       </button>
       <button
         onClick={handleNext}
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-800/30 hover:bg-gray-800/50 rounded-full p-2.5 transition-colors"
+        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-800/30 hover:bg-gray-800/50 rounded-full p-2.5"
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth="1.5"
-          stroke="currentColor"
-          className="w-6 h-6 text-white"
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-        </svg>
+        <i className="fas fa-chevron-right text-white text-lg" />
       </button>
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 overflow-x-auto max-w-full px-4">
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 px-4">
         {React.Children.map(children, (_, index) => (
           <button
             onClick={() => setCurrentIndex(index)}
-            className={`w-3 h-3 rounded-full transition-colors ${index === currentIndex ? 'bg-gray-800' : 'bg-gray-800/50'
-              }`}
+            className={`w-3 h-3 rounded-full ${index === currentIndex ? 'bg-gray-800' : 'bg-gray-800/50'}`}
           />
         ))}
       </div>
@@ -79,16 +60,16 @@ const Carousel: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   );
 };
 
-
 function ProductsItemPage() {
   const [product, setProduct] = useState<Product | null>(null);
   const [searchParams] = useSearchParams();
   const pid = searchParams.get('pid');
+  const intl = useIntl();
 
   useEffect(() => {
     if (pid) {
       const allProducts = Object.values(productsData).flat();
-      const foundProduct = allProducts.find((item: Product) => item.pid === pid);
+      const foundProduct = allProducts.find((item) => item.pid === pid);
       setProduct(foundProduct || null);
     }
   }, [pid]);
@@ -96,7 +77,9 @@ function ProductsItemPage() {
   if (!product) {
     return (
       <div className="flex items-center justify-center h-screen">
-        <p className="text-lg font-semibold text-gray-800 dark:text-white">商品未找到</p>
+        <p className="text-lg font-semibold text-gray-800 dark:text-white">
+          {intl.formatMessage({ id: 'productsItem.notFound' })}
+        </p>
       </div>
     );
   }
@@ -125,11 +108,20 @@ function ProductsItemPage() {
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
                 {product.detail.title}
               </p>
-              <a className='btn' href={product.detail.taobao_link} target="_blank" rel="noopener noreferrer">淘宝链接</a>
+              <a
+                className="btn"
+                href={product.detail.taobao_link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {intl.formatMessage({ id: 'productsItem.taobaoLink' })}
+              </a>
             </div>
             <div className="w-full md:w-1/4">
               <div>
-                <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">详细参数：</h2>
+                <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+                  {intl.formatMessage({ id: 'productsItem.specsTitle' })}
+                </h2>
                 <div
                   className="text-base text-gray-500 dark:text-gray-400 space-y-4 leading-7"
                   dangerouslySetInnerHTML={{ __html: product.detail.description }}
@@ -138,7 +130,9 @@ function ProductsItemPage() {
             </div>
           </div>
           <div className="mt-8">
-            <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">附件下载列表：</h2>
+            <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              {intl.formatMessage({ id: 'productsItem.downloadTitle' })}
+            </h2>
             <ul className="space-y-2">
               {product.diagram.map((link, index) => (
                 <li key={index}>
@@ -148,7 +142,7 @@ function ProductsItemPage() {
                     rel="noopener noreferrer"
                     className="text-blue-600 dark:text-blue-400 hover:underline"
                   >
-                    附件 {index + 1}：{link}
+                    {intl.formatMessage({ id: 'productsItem.attachment' }, { index: index + 1, name: link })}
                   </a>
                 </li>
               ))}

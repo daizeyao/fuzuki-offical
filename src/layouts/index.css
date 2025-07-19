@@ -8,36 +8,36 @@
   .container {
     @apply w-full max-w-[1200px] mx-auto px-4 md:px-6;
   }
-  
+
   .btn {
     @apply px-6 py-3 bg-primary text-white font-medium rounded-md shadow-md hover:bg-secondary transition-colors duration-300 inline-block;
   }
-  
+
   .btn-outline {
     @apply px-6 py-3 bg-transparent border border-primary text-primary font-medium rounded-md hover:bg-primary hover:text-white transition-colors duration-300 inline-block;
   }
-  
+
   /* 暗色模式的通用覆盖样式 */
   .dark .btn {
     @apply bg-black hover:bg-secondary;
   }
-  
+
   .dark .btn-outline {
     @apply border-white text-white hover:bg-white hover:text-gray-900;
   }
-  
+
   .section {
     @apply py-12 md:py-20;
   }
-  
+
   .section-title {
     @apply text-center mb-12;
   }
-  
+
   .section-title h2 {
     @apply text-3xl md:text-4xl font-bold text-primary mb-4;
   }
-  
+
   .section-title p {
     @apply text-base md:text-lg text-gray-700 max-w-2xl mx-auto;
   }
