@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useIntl } from 'umi';
-import { TAOBAO_URL, DOUYIN_URL } from '@/constants';
+import { TAOBAO_URL, DOUYIN_URL, JD_URL, PDD_URL, TAO_1688_URL, TIANMAO_URL } from '@/constants';
 
 const wechat_img = require('@/assets/wechat.png');
 
@@ -33,10 +33,14 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-4">{intl.formatMessage({ id: 'more' })}</h4>
+            <h4 className="text-lg font-semibold mb-4">{intl.formatMessage({ id: 'shops' })}</h4>
             <ul className="flex flex-col space-y-2">
               <li><a href={TAOBAO_URL} target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-secondary transition-colors">{intl.formatMessage({ id: 'taobao' })}</a></li>
               <li><a href={DOUYIN_URL} target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-secondary transition-colors">{intl.formatMessage({ id: 'douyin' })}</a></li>
+              <li><a href={TIANMAO_URL} target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-secondary transition-colors">{intl.formatMessage({ id: 'tianmao' })}</a></li>
+              <li><a href={TAO_1688_URL} target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-secondary transition-colors">{intl.formatMessage({ id: '1688' })}</a></li>
+              <li><a href={PDD_URL} target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-secondary transition-colors">{intl.formatMessage({ id: 'pdd' })}</a></li>
+              <li><a href={JD_URL} target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-secondary transition-colors">{intl.formatMessage({ id: 'jd' })}</a></li>
               <li><a href="/products-show" className="text-gray-300 hover:text-secondary transition-colors">{intl.formatMessage({ id: 'showcase' })}</a></li>
             </ul>
           </div>
