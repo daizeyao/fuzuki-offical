@@ -3,7 +3,7 @@ const path = require('path');
 const crypto = require('crypto');
 
 // 定义输入和输出路径
-const productsDir = path.join(__dirname, '../../fuzuki-assets/products-0512');
+const productsDir = path.join(__dirname, '../../fuzuki-assets/products-0830');
 const outputFile = path.join(__dirname, '../src/constants/products.json');
 
 // 解析文件夹内容
