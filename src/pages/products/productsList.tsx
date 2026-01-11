@@ -16,7 +16,13 @@ function ProductsListPage() {
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [searchParams] = useSearchParams();
 
-  const types = ['all', ...Object.keys(productsData).filter((t) => t !== 'other'), 'other'];
+  const types = [
+    "all",
+    "panel",
+    "adapter",
+    "wire",
+    "other"
+  ];
 
   const filterProducts = (type: string, search: string) => {
     const searchLower = search.toLowerCase();

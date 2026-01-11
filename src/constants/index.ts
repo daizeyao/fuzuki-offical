@@ -6,7 +6,7 @@ export const PDD_URL = "https://mobile.yangkeduo.com/mall_page.html?ps=o4Kg5Ihsz
 export const JD_URL = "https://3.cn/2np-Ywyb";
 
 export const ALIYUN_OSS_URL = "https://fuzuki-products.oss-cn-hangzhou.aliyuncs.com/";
-export const PRODUCTS_DIR = "products-260111";
+export const PRODUCTS_DIR = "products-260111-2";
 
 export const NAV_ITEMS = [
   {

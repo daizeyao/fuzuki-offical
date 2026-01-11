@@ -1,24 +1,26 @@
 {
   "adapter": [
     {
-      "pid": "ae0e53ce132fda628bb0707361181654",
-      "name": "富崎MSDD90600-90度向下 侧面出线省空间",
+      "pid": "677043e626c8f8144146498bd606305a",
+      "name": "CX5RJ45-CAT6",
       "type": "adapter",
       "certificates": [
-        "688ad2b18794e8620992c511ec09481.jpg",
-        "f29d9030f644ef1250df104844b1978.jpg"
+        "X5RJ45  CE RoHS证书_已签章(1).pdf",
+        "X5RJ45 RoHS_已签章(1).pdf"
       ],
       "diagram": [
-        "MSDD90600 CE RoHS证书_已签章.pdf",
-        "MSDD90600 RoHS_已签章.pdf"
+        "X5RJ45-CAT6A-模型.pdf",
+        "X5RJ45-CAT6A.bak",
+        "X5RJ45-CAT6A.dwg",
+        "X5RJ45-CAT6A.STEP"
       ],
       "show": [
-        "1 (33).jpg"
+        "44422.png"
       ],
       "detail": {
-        "title": "面板安装连接器",
-        "description": "型号：MSDD90600-90度向下<br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：CE RoHs<br>开孔尺寸：21（+1）mm<br>IP：54<br>安装方式：前螺母安装 ",
-        "taobao_link": "https://item.taobao.com/item.htm?id=529674894791&pisk=grZ-0MABRsfu2er-n87D-NIwqF60JZ2Pk7y6xXckRSFYd7Got3gBhnMnLQ97dXmL9WFKZ21rqkFYd5BrK_r3kpeaMW3FUXcI9W2QrtjGj8yrYDtdsGjGNbqnm7LINX6BcADFnYijlcEqYD1G9ExIzGnUNgEEgHTjhjkKdQgQOqijEj9WRWGSlIMELDiQO2wfcYD6AvMIdm6xIvvWR3GBhiMZQLM7OD6YhjkIAYNIAATyeXvS9HUw_tLF-HDpAHZxeq_0Fjgi79DSyl2-M11_DGu-18GvA1WpxKhKgl1ck-PgP7D49GCxfPPYvVid2Ck8lRnjZcsJUfZopR4LB1dn3zN8c2EcLayYvb3_Vqp6xmiqdWgLu1Kie04xWuUPLIw7sbUs4JvOZ-3TkVkjlpLSqP2gYVZ52Clm7vFxSzC925syUlq9L0Ri6vY5HtLe84MVL-zqXrWlnckxstYD8eum3xhGHtLe84MqHfXcme8Eox5..&spm=a1z10.3-c-s.w4002-18367346758.9.1b9336ebEK6b0s",
+        "title": "全金属网口转换器",
+        "description": "型号：CX5RJ45-CAT6<br>品牌：FUZUKI富崎<br>材质：金属<br>开孔尺寸：22mm<br>IP：54<br>安装方式：后螺母安装 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=955892512151&pisk=gZss4pcg3fcsjBQJ5nyEV27LQIxf1JrPkx9AEtnZHhK9Mx1dHfpxDdKp9Lp6kmzMbEtf9BSw_O-9Mm1V3G5VHiJAchjF7mRasn6AanNzaurPIOYDD7PyfFZB03poWqh26Xnp0KOppy6GIOxDMvlYzwBih-6HdopvMJtphdhvDCLt9J923VKv6EhdpKdpMnCxXDLpQLHtDECYvDpyBApvBFLpvLJXDICv6J6ptKtvMsKYd9hhxX9q1pW_FdtllFaZY1dIDmIBpSARC7mDpMv_cQW6O7FVA_Y6wOdID5Lvi2AXtgFUR9fNW1JhGuNBvTQBXd1Y24RdR9IMz94TG9te19dpVxEOdhO6yMYtF01RdtQyRMy8qht96Z-G3YNNdG1NIM6qH2K6bwT5f3Eo6I7FFi9fmSqCNOQRMZsy70RWajujdUmXdQyQdq0mN1kc2akop9L9KdEzdJGFmFpHd-2Qd4EeWpveBJwIzxC..&spm=a1z10.3-c-s.w4002-18367346758.19.6f6136ebCDkVxd",
         "priority": 1
       }
     },
@@ -99,6 +101,282 @@
         "title": "面板安装连接器",
         "description": "型号：HD9040012（CAT6A全金属）<br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：CE RoHs<br>IP：54<br>安装方式：后螺母安装 ",
         "taobao_link": "https://item.taobao.com/item.htm?id=555988408060&pisk=gpPnVb_NQJkIpFjtB5GCnMCplHXOdXGSvud-2bnPQco69uhKwhkZRq0eTBJUI4r8fa_I9zouqln69JBIe0YojkR-p74WZ4zzVwiRROUQRbGPDinlMyaBmIefZWArQVzsuQRFBvrmggFGDiCAZ98ZZMjY2HXyP1umubuEUBkNS40k8bkELh7iz4KE4DrPSN0rlH8E4Q8ZQ4gjapuE818ZRqoy4buz7N0Sb0lraulNS4MsS9oQa5PNfaw12qET-50nKmzGhQRkt2txmyPvZQmn-vXL8cAya529md6ZYtTtVXnQR2q5GBGEE8PK_WSNajybj7DqiTQIgWazh8z6xamUWkNmTSjH9VHoxRPEIURz-fwEe8qhxpiUplDj7A8lGVExbyNUIata8onnTVkOgZ4ZURFIhWIwtjybJXez0GpKY-0P4n9w32WXNV78_L9SLVgiD4ZKoNq4D9MOSNvVPvusRmQGSL9SLVgiDNbM3_ME52iA.&spm=a1z10.3-c-s.w4002-18367346758.11.3f7236ebpjyhxE",
+        "priority": 1
+      }
+    },
+    {
+      "pid": "78a8c7746145a29e4939adc3aaf566de",
+      "name": "KMSDD-CAT6A-90度下方出线 侧面出线省空间",
+      "type": "adapter",
+      "certificates": [
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "微信图片_20250404205638.jpg"
+      ],
+      "diagram": [
+        "新MSDD08-CAT6A-模型.pdf",
+        "MSDD08 CE RoHS证书_已签章.pdf",
+        "MSDD08 CE RoSH证书-已签章.pdf",
+        "MSDD08 CE RoSH证书-已签章（20230208）.pdf",
+        "MSDD08 CE RoSH证书-已签章（CAT6A-M,CAT7-M）.pdf",
+        "MSDD08-CAT6A.stp"
+      ],
+      "show": [
+        "11112.png"
+      ],
+      "detail": {
+        "title": "面板安装连接器",
+        "description": "型号：KMSDD-CAT6A-90度下方出线 侧面出线省空间 CAT6<br>品牌：FUZUKI富崎<br>材质：不锈钢<br>产品资质认证：CE <br>开孔尺寸：18.3x22.9mm<br>IP：54<br>安装方式：螺丝锁紧 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=983940629761&pisk=fPWoTS0vO_RWio0kfSv7azGsc3VAw49BywHpJpLUgE8jewpJpqR2VhxrUYlPiH7dlkZWeM8h-ZLje_FW9emHoakpw9jIKHSFRuTLVSI5Vp9UWPp3BgsWi-XYYTcr3nSXj4ke3IJGhp9UWycxLQwMdaXJPIxHgoxpAekP8UJV0EtnTe7ezIu2AH9e8e84ISLxNOkkdF0QBCHfalmGVg8mIi6D4PL_CUDEft-lmHIPAvkFn3Al3Fx6BpORTGO1ea2nhLIGgK-l8Rzy3G5cXQXuSYLCP9AcUQnUzQAHrsWyiDkF2K82_6burbTPwZA60Io3CnQ9ug6PikgV4NLkUnRYQlj2TgyigfyIVvt4vtlIOQ-XmFefAyQsASLTmoqm6MOycH5TmocCSQ-X0_Z0mfo2antWw&skuId=6002688740269&spm=a1z10.3-c-s.w4002-18367346758.54.3bdb36ebz05vtW",
+        "priority": 2
+      }
+    },
+    {
+      "pid": "d31f29d50d00e8ddc9ec4d9d04dc7dc4",
+      "name": "KMSDD-CAT6A超六类金属网口 10Gbps(10000兆）",
+      "type": "adapter",
+      "certificates": [
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "微信图片_20250404205638.jpg"
+      ],
+      "diagram": [
+        "新MSDD08-CAT6A-模型.pdf",
+        "MSDD08 CE RoHS证书_已签章.pdf",
+        "MSDD08 CE RoSH证书-已签章.pdf",
+        "MSDD08 CE RoSH证书-已签章（20230208）.pdf",
+        "MSDD08 CE RoSH证书-已签章（CAT6A-M,CAT7-M）.pdf",
+        "MSDD08-CAT6A.stp"
+      ],
+      "show": [
+        "222.png"
+      ],
+      "detail": {
+        "title": "面板安装连接器",
+        "description": "型号：KMSDD-CAT6A超六类金属网口 10Gbps(10000兆） CAT6<br>品牌：FUZUKI富崎<br>材质：不锈钢<br>产品资质认证：CE <br>开孔尺寸：18.3x22.9mm<br>IP：54<br>安装方式：螺丝锁紧 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=983940629761&pisk=fPWoTS0vO_RWio0kfSv7azGsc3VAw49BywHpJpLUgE8jewpJpqR2VhxrUYlPiH7dlkZWeM8h-ZLje_FW9emHoakpw9jIKHSFRuTLVSI5Vp9UWPp3BgsWi-XYYTcr3nSXj4ke3IJGhp9UWycxLQwMdaXJPIxHgoxpAekP8UJV0EtnTe7ezIu2AH9e8e84ISLxNOkkdF0QBCHfalmGVg8mIi6D4PL_CUDEft-lmHIPAvkFn3Al3Fx6BpORTGO1ea2nhLIGgK-l8Rzy3G5cXQXuSYLCP9AcUQnUzQAHrsWyiDkF2K82_6burbTPwZA60Io3CnQ9ug6PikgV4NLkUnRYQlj2TgyigfyIVvt4vtlIOQ-XmFefAyQsASLTmoqm6MOycH5TmocCSQ-X0_Z0mfo2antWw&skuId=6002688740269&spm=a1z10.3-c-s.w4002-18367346758.54.3bdb36ebz05vtW",
+        "priority": 1
+      }
+    },
+    {
+      "pid": "851cee63ab8bba77032663695d23c942",
+      "name": "KMSDD-HDMI母母 高清视频插座",
+      "type": "adapter",
+      "certificates": [
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "微信图片_20250404205638.jpg"
+      ],
+      "diagram": [
+        "新MSDD08-CAT6A-模型.pdf",
+        "MSDD08 CE RoHS证书_已签章.pdf",
+        "MSDD08 CE RoSH证书-已签章.pdf",
+        "MSDD08 CE RoSH证书-已签章（20230208）.pdf",
+        "MSDD08 CE RoSH证书-已签章（CAT6A-M,CAT7-M）.pdf",
+        "MSDD08-CAT6A.stp"
+      ],
+      "show": [
+        "222323.png"
+      ],
+      "detail": {
+        "title": "面板安装连接器",
+        "description": "型号：KMSDD-HDMI母母 高清视频插座<br>品牌：FUZUKI富崎<br>材质：不锈钢<br>产品资质认证：CE <br>开孔尺寸：18.3x22.9mm<br>IP：54<br>安装方式：螺丝锁紧 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=983940629761&pisk=fPWoTS0vO_RWio0kfSv7azGsc3VAw49BywHpJpLUgE8jewpJpqR2VhxrUYlPiH7dlkZWeM8h-ZLje_FW9emHoakpw9jIKHSFRuTLVSI5Vp9UWPp3BgsWi-XYYTcr3nSXj4ke3IJGhp9UWycxLQwMdaXJPIxHgoxpAekP8UJV0EtnTe7ezIu2AH9e8e84ISLxNOkkdF0QBCHfalmGVg8mIi6D4PL_CUDEft-lmHIPAvkFn3Al3Fx6BpORTGO1ea2nhLIGgK-l8Rzy3G5cXQXuSYLCP9AcUQnUzQAHrsWyiDkF2K82_6burbTPwZA60Io3CnQ9ug6PikgV4NLkUnRYQlj2TgyigfyIVvt4vtlIOQ-XmFefAyQsASLTmoqm6MOycH5TmocCSQ-X0_Z0mfo2antWw&skuId=6002688740269&spm=a1z10.3-c-s.w4002-18367346758.54.3bdb36ebz05vtW",
+        "priority": 2
+      }
+    },
+    {
+      "pid": "d62e5d8c83d9b3e5924bcef4ec9bf00b",
+      "name": "KMSDD-USB2.0AA 背面180度出线",
+      "type": "adapter",
+      "certificates": [
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "微信图片_20250404205638.jpg"
+      ],
+      "diagram": [
+        "新MSDD08-CAT6A-模型.pdf",
+        "MSDD08 CE RoHS证书_已签章.pdf",
+        "MSDD08 CE RoSH证书-已签章.pdf",
+        "MSDD08 CE RoSH证书-已签章（20230208）.pdf",
+        "MSDD08 CE RoSH证书-已签章（CAT6A-M,CAT7-M）.pdf",
+        "MSDD08-CAT6A.stp"
+      ],
+      "show": [
+        "78787.png"
+      ],
+      "detail": {
+        "title": "面板安装连接器",
+        "description": "型号：KMSDD-USB2.0AA 背面180度出线<br>品牌：FUZUKI富崎<br>材质：不锈钢<br>产品资质认证：CE <br>开孔尺寸：18.3x22.9mm<br>IP：54<br>安装方式：螺丝锁紧 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=983940629761&pisk=fPWoTS0vO_RWio0kfSv7azGsc3VAw49BywHpJpLUgE8jewpJpqR2VhxrUYlPiH7dlkZWeM8h-ZLje_FW9emHoakpw9jIKHSFRuTLVSI5Vp9UWPp3BgsWi-XYYTcr3nSXj4ke3IJGhp9UWycxLQwMdaXJPIxHgoxpAekP8UJV0EtnTe7ezIu2AH9e8e84ISLxNOkkdF0QBCHfalmGVg8mIi6D4PL_CUDEft-lmHIPAvkFn3Al3Fx6BpORTGO1ea2nhLIGgK-l8Rzy3G5cXQXuSYLCP9AcUQnUzQAHrsWyiDkF2K82_6burbTPwZA60Io3CnQ9ug6PikgV4NLkUnRYQlj2TgyigfyIVvt4vtlIOQ-XmFefAyQsASLTmoqm6MOycH5TmocCSQ-X0_Z0mfo2antWw&skuId=6002688740269&spm=a1z10.3-c-s.w4002-18367346758.54.3bdb36ebz05vtW",
+        "priority": 2
+      }
+    },
+    {
+      "pid": "50d67051a9ec4c0ce64c2a97a6fecc0a",
+      "name": "KMSDD-USB3.0AA 背面180度出线",
+      "type": "adapter",
+      "certificates": [
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "微信图片_20250404205638.jpg"
+      ],
+      "diagram": [
+        "新MSDD08-CAT6A-模型.pdf",
+        "MSDD08 CE RoHS证书_已签章.pdf",
+        "MSDD08 CE RoSH证书-已签章.pdf",
+        "MSDD08 CE RoSH证书-已签章（20230208）.pdf",
+        "MSDD08 CE RoSH证书-已签章（CAT6A-M,CAT7-M）.pdf",
+        "MSDD08-CAT6A.stp"
+      ],
+      "show": [
+        "999.png"
+      ],
+      "detail": {
+        "title": "面板安装连接器",
+        "description": "型号：KMSDD-USB3.0AA 背面180度出线<br>品牌：FUZUKI富崎<br>材质：不锈钢<br>产品资质认证：CE <br>开孔尺寸：18.3x22.9mm<br>IP：54<br>安装方式：螺丝锁紧 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=983940629761&pisk=fPWoTS0vO_RWio0kfSv7azGsc3VAw49BywHpJpLUgE8jewpJpqR2VhxrUYlPiH7dlkZWeM8h-ZLje_FW9emHoakpw9jIKHSFRuTLVSI5Vp9UWPp3BgsWi-XYYTcr3nSXj4ke3IJGhp9UWycxLQwMdaXJPIxHgoxpAekP8UJV0EtnTe7ezIu2AH9e8e84ISLxNOkkdF0QBCHfalmGVg8mIi6D4PL_CUDEft-lmHIPAvkFn3Al3Fx6BpORTGO1ea2nhLIGgK-l8Rzy3G5cXQXuSYLCP9AcUQnUzQAHrsWyiDkF2K82_6burbTPwZA60Io3CnQ9ug6PikgV4NLkUnRYQlj2TgyigfyIVvt4vtlIOQ-XmFefAyQsASLTmoqm6MOycH5TmocCSQ-X0_Z0mfo2antWw&skuId=6002688740269&spm=a1z10.3-c-s.w4002-18367346758.54.3bdb36ebz05vtW",
+        "priority": 2
+      }
+    },
+    {
+      "pid": "7beae7229aa9b67f1d68d82e2bc3a81a",
+      "name": "KMSDD-USB3.0AA-90度 背面90度出线",
+      "type": "adapter",
+      "certificates": [
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "微信图片_20250404205638.jpg"
+      ],
+      "diagram": [
+        "新MSDD08-CAT6A-模型.pdf",
+        "MSDD08 CE RoHS证书_已签章.pdf",
+        "MSDD08 CE RoSH证书-已签章.pdf",
+        "MSDD08 CE RoSH证书-已签章（20230208）.pdf",
+        "MSDD08 CE RoSH证书-已签章（CAT6A-M,CAT7-M）.pdf",
+        "MSDD08-CAT6A.stp"
+      ],
+      "show": [
+        "2323.png"
+      ],
+      "detail": {
+        "title": "面板安装连接器",
+        "description": "型号：KMSDD-USB3.0AA-90度 背面90度出线<br>品牌：FUZUKI富崎<br>材质：不锈钢<br>产品资质认证：CE <br>开孔尺寸：18.3x22.9mm<br>IP：54<br>安装方式：螺丝锁紧 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=983940629761&pisk=fPWoTS0vO_RWio0kfSv7azGsc3VAw49BywHpJpLUgE8jewpJpqR2VhxrUYlPiH7dlkZWeM8h-ZLje_FW9emHoakpw9jIKHSFRuTLVSI5Vp9UWPp3BgsWi-XYYTcr3nSXj4ke3IJGhp9UWycxLQwMdaXJPIxHgoxpAekP8UJV0EtnTe7ezIu2AH9e8e84ISLxNOkkdF0QBCHfalmGVg8mIi6D4PL_CUDEft-lmHIPAvkFn3Al3Fx6BpORTGO1ea2nhLIGgK-l8Rzy3G5cXQXuSYLCP9AcUQnUzQAHrsWyiDkF2K82_6burbTPwZA60Io3CnQ9ug6PikgV4NLkUnRYQlj2TgyigfyIVvt4vtlIOQ-XmFefAyQsASLTmoqm6MOycH5TmocCSQ-X0_Z0mfo2antWw&skuId=6002688740269&spm=a1z10.3-c-s.w4002-18367346758.54.3bdb36ebz05vtW",
+        "priority": 2
+      }
+    },
+    {
+      "pid": "a555437848883716d67eef855967e184",
+      "name": "KMSDD08-音频3.5插座",
+      "type": "adapter",
+      "certificates": [
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "微信图片_20250404205638.jpg"
+      ],
+      "diagram": [
+        "新MSDD08-CAT6A-模型.pdf",
+        "MSDD08 CE RoHS证书_已签章.pdf",
+        "MSDD08 CE RoSH证书-已签章.pdf",
+        "MSDD08 CE RoSH证书-已签章（20230208）.pdf",
+        "MSDD08 CE RoSH证书-已签章（CAT6A-M,CAT7-M）.pdf",
+        "MSDD08-CAT6A.stp"
+      ],
+      "show": [
+        "5543.png"
+      ],
+      "detail": {
+        "title": "面板安装连接器",
+        "description": "型号：KMSDD08-音频3.5插座<br>品牌：FUZUKI富崎<br>材质：不锈钢<br>产品资质认证：CE <br>开孔尺寸：18.3x22.9mm<br>IP：54<br>安装方式：螺丝锁紧 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=983940629761&pisk=fPWoTS0vO_RWio0kfSv7azGsc3VAw49BywHpJpLUgE8jewpJpqR2VhxrUYlPiH7dlkZWeM8h-ZLje_FW9emHoakpw9jIKHSFRuTLVSI5Vp9UWPp3BgsWi-XYYTcr3nSXj4ke3IJGhp9UWycxLQwMdaXJPIxHgoxpAekP8UJV0EtnTe7ezIu2AH9e8e84ISLxNOkkdF0QBCHfalmGVg8mIi6D4PL_CUDEft-lmHIPAvkFn3Al3Fx6BpORTGO1ea2nhLIGgK-l8Rzy3G5cXQXuSYLCP9AcUQnUzQAHrsWyiDkF2K82_6burbTPwZA60Io3CnQ9ug6PikgV4NLkUnRYQlj2TgyigfyIVvt4vtlIOQ-XmFefAyQsASLTmoqm6MOycH5TmocCSQ-X0_Z0mfo2antWw&skuId=6002688740269&spm=a1z10.3-c-s.w4002-18367346758.54.3bdb36ebz05vtW",
+        "priority": 2
+      }
+    },
+    {
+      "pid": "a9fceb8d9c5e8fcbe68f8db8208190fd",
+      "name": "KMSDD08-CAT6-P 8芯塑料网口 CAT6",
+      "type": "adapter",
+      "certificates": [
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "微信图片_20250404205638.jpg"
+      ],
+      "diagram": [
+        "新MSDD08-CAT6A-模型.pdf",
+        "MSDD08 CE RoHS证书_已签章.pdf",
+        "MSDD08 CE RoSH证书-已签章.pdf",
+        "MSDD08 CE RoSH证书-已签章（20230208）.pdf",
+        "MSDD08 CE RoSH证书-已签章（CAT6A-M,CAT7-M）.pdf",
+        "MSDD08-CAT6A.stp"
+      ],
+      "show": [
+        "1.png"
+      ],
+      "detail": {
+        "title": "面板安装连接器",
+        "description": "型号：KMSDD08-CAT6-P 8芯塑料网口 CAT6<br>品牌：FUZUKI富崎<br>材质：不锈钢<br>产品资质认证：CE <br>开孔尺寸：18.3x22.9mm<br>IP：54<br>安装方式：螺丝锁紧 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=983940629761&pisk=fPWoTS0vO_RWio0kfSv7azGsc3VAw49BywHpJpLUgE8jewpJpqR2VhxrUYlPiH7dlkZWeM8h-ZLje_FW9emHoakpw9jIKHSFRuTLVSI5Vp9UWPp3BgsWi-XYYTcr3nSXj4ke3IJGhp9UWycxLQwMdaXJPIxHgoxpAekP8UJV0EtnTe7ezIu2AH9e8e84ISLxNOkkdF0QBCHfalmGVg8mIi6D4PL_CUDEft-lmHIPAvkFn3Al3Fx6BpORTGO1ea2nhLIGgK-l8Rzy3G5cXQXuSYLCP9AcUQnUzQAHrsWyiDkF2K82_6burbTPwZA60Io3CnQ9ug6PikgV4NLkUnRYQlj2TgyigfyIVvt4vtlIOQ-XmFefAyQsASLTmoqm6MOycH5TmocCSQ-X0_Z0mfo2antWw&skuId=6002688740269&spm=a1z10.3-c-s.w4002-18367346758.54.3bdb36ebz05vtW",
+        "priority": 1
+      }
+    },
+    {
+      "pid": "c806c7739c68197be99bfbd5cd254c8c",
+      "name": "KMSDD08-Type C华为口 TYPE C母母",
+      "type": "adapter",
+      "certificates": [
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "微信图片_20250404205638.jpg"
+      ],
+      "diagram": [
+        "新MSDD08-CAT6A-模型.pdf",
+        "MSDD08 CE RoHS证书_已签章.pdf",
+        "MSDD08 CE RoSH证书-已签章.pdf",
+        "MSDD08 CE RoSH证书-已签章（20230208）.pdf",
+        "MSDD08 CE RoSH证书-已签章（CAT6A-M,CAT7-M）.pdf",
+        "MSDD08-CAT6A.stp"
+      ],
+      "show": [
+        "5554.png"
+      ],
+      "detail": {
+        "title": "面板安装连接器",
+        "description": "型号：KMSDD08-Type C华为口 TYPE C母母<br>品牌：FUZUKI富崎<br>材质：不锈钢<br>产品资质认证：CE <br>开孔尺寸：18.3x22.9mm<br>IP：54<br>安装方式：螺丝锁紧 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=983940629761&pisk=fPWoTS0vO_RWio0kfSv7azGsc3VAw49BywHpJpLUgE8jewpJpqR2VhxrUYlPiH7dlkZWeM8h-ZLje_FW9emHoakpw9jIKHSFRuTLVSI5Vp9UWPp3BgsWi-XYYTcr3nSXj4ke3IJGhp9UWycxLQwMdaXJPIxHgoxpAekP8UJV0EtnTe7ezIu2AH9e8e84ISLxNOkkdF0QBCHfalmGVg8mIi6D4PL_CUDEft-lmHIPAvkFn3Al3Fx6BpORTGO1ea2nhLIGgK-l8Rzy3G5cXQXuSYLCP9AcUQnUzQAHrsWyiDkF2K82_6burbTPwZA60Io3CnQ9ug6PikgV4NLkUnRYQlj2TgyigfyIVvt4vtlIOQ-XmFefAyQsASLTmoqm6MOycH5TmocCSQ-X0_Z0mfo2antWw&skuId=6002688740269&spm=a1z10.3-c-s.w4002-18367346758.54.3bdb36ebz05vtW",
+        "priority": 2
+      }
+    },
+    {
+      "pid": "d16047a6ded8b993bc17a00f117c0dc0",
+      "name": "KX5RJ45-CAT6",
+      "type": "adapter",
+      "certificates": [
+        "X5RJ45  CE RoHS证书_已签章(1).pdf",
+        "X5RJ45 RoHS_已签章(1).pdf"
+      ],
+      "diagram": [
+        "X5RJ45-CAT6A-模型.pdf",
+        "X5RJ45-CAT6A.bak",
+        "X5RJ45-CAT6A.dwg",
+        "X5RJ45-CAT6A.STEP"
+      ],
+      "show": [
+        "3322.png"
+      ],
+      "detail": {
+        "title": "全金属网口转换器",
+        "description": "型号：KX5RJ45-CAT6<br>品牌：FUZUKI富崎<br>材质：金属<br>开孔尺寸：22mm<br>IP：54<br>安装方式：后螺母安装 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=955892512151&pisk=gZss4pcg3fcsjBQJ5nyEV27LQIxf1JrPkx9AEtnZHhK9Mx1dHfpxDdKp9Lp6kmzMbEtf9BSw_O-9Mm1V3G5VHiJAchjF7mRasn6AanNzaurPIOYDD7PyfFZB03poWqh26Xnp0KOppy6GIOxDMvlYzwBih-6HdopvMJtphdhvDCLt9J923VKv6EhdpKdpMnCxXDLpQLHtDECYvDpyBApvBFLpvLJXDICv6J6ptKtvMsKYd9hhxX9q1pW_FdtllFaZY1dIDmIBpSARC7mDpMv_cQW6O7FVA_Y6wOdID5Lvi2AXtgFUR9fNW1JhGuNBvTQBXd1Y24RdR9IMz94TG9te19dpVxEOdhO6yMYtF01RdtQyRMy8qht96Z-G3YNNdG1NIM6qH2K6bwT5f3Eo6I7FFi9fmSqCNOQRMZsy70RWajujdUmXdQyQdq0mN1kc2akop9L9KdEzdJGFmFpHd-2Qd4EeWpveBJwIzxC..&spm=a1z10.3-c-s.w4002-18367346758.19.6f6136ebCDkVxd",
         "priority": 1
       }
     },
@@ -1180,6 +1458,50 @@
       }
     },
     {
+      "pid": "96ddf51873d8f6b7250d00aab5146cc4",
+      "name": "MSDD90301S-USB2.0AA开孔φ30mm USB2.0AA母母带止转",
+      "type": "adapter",
+      "certificates": [
+        "O1CN01HnRhpo1oYbAjcyEzP_!!61615237.avif",
+        "O1CN01UGI71d1oYauNV3hlw_!!61615237.avif"
+      ],
+      "diagram": [
+        "0MSDD90401S.STEP",
+        "6a新MSDD90401S-cat6A-模型.pdf"
+      ],
+      "show": [
+        "123.png"
+      ],
+      "detail": {
+        "title": "面板安装连接器",
+        "description": "型号：MSDD90301S-USB2.0<br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：CE RoHs<br>开孔尺寸：30mm<br>IP：54<br>安装方式：后螺母安装 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=1000070128933&pisk=f7ViTjxKhRk6siKiP9c1QG1nlPWdBhGjXodxDjnVLDoB6ohtMHkE540w_CJaKqrYAZ_s6ro0mknB6RBsHmYmxlRxBS4Xiqz4cNiA59U_5jGV2ghcwPast3Ipy50282zIlmRqTvluOjGV2i0V8WcoGlV9uCumLw0xlmRa0clU8DgD_nrqbv-ElqGq0epemgVcuSAiG0xfwRGg0M3x4PoaWPFU23nu7jODic0SIVUZxIR4t-VrJwnNFenj6cZqSo1W1fk0Ql0EisAEslaagvVAvekogcDb_zXP8yVmjYPZKUOY7f040x2CqQ3i6JDusR_XYPr-j8l_kUjT-Y2nF2keodSykpJPGFOj8ZFehKMZR2mROrsYVE6K2wbh-LUjQ2g4ewbHH7DZR2zh-wvy8AuI5AC..&spm=a1z10.3-c-s.w4002-18367346758.23.795b36ebbLeLqx",
+        "priority": 1
+      }
+    },
+    {
+      "pid": "fe35e0ffe37b30b07ceb23dccd24db66",
+      "name": "MSDD90301S-USB3.0AA开孔φ30mm USB2.0AA母母带止转",
+      "type": "adapter",
+      "certificates": [
+        "O1CN01HnRhpo1oYbAjcyEzP_!!61615237.avif",
+        "O1CN01UGI71d1oYauNV3hlw_!!61615237.avif"
+      ],
+      "diagram": [
+        "0MSDD90401S.STEP",
+        "6a新MSDD90401S-cat6A-模型.pdf"
+      ],
+      "show": [
+        "333.png"
+      ],
+      "detail": {
+        "title": "面板安装连接器",
+        "description": "型号：MSDD90301S-USB3.0<br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：CE RoHs<br>开孔尺寸：30mm<br>IP：54<br>安装方式：后螺母安装 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=1000070128933&pisk=f7ViTjxKhRk6siKiP9c1QG1nlPWdBhGjXodxDjnVLDoB6ohtMHkE540w_CJaKqrYAZ_s6ro0mknB6RBsHmYmxlRxBS4Xiqz4cNiA59U_5jGV2ghcwPast3Ipy50282zIlmRqTvluOjGV2i0V8WcoGlV9uCumLw0xlmRa0clU8DgD_nrqbv-ElqGq0epemgVcuSAiG0xfwRGg0M3x4PoaWPFU23nu7jODic0SIVUZxIR4t-VrJwnNFenj6cZqSo1W1fk0Ql0EisAEslaagvVAvekogcDb_zXP8yVmjYPZKUOY7f040x2CqQ3i6JDusR_XYPr-j8l_kUjT-Y2nF2keodSykpJPGFOj8ZFehKMZR2mROrsYVE6K2wbh-LUjQ2g4ewbHH7DZR2zh-wvy8AuI5AC..&spm=a1z10.3-c-s.w4002-18367346758.23.795b36ebbLeLqx",
+        "priority": 1
+      }
+    },
+    {
       "pid": "5d419b68f2fd9bcc5ca21a39d6f13427",
       "name": "MSDD90322-2USB3.0AA",
       "type": "adapter",
@@ -1820,6 +2142,28 @@
       }
     },
     {
+      "pid": "987dd0dfb65bc5560442233289cd6e02",
+      "name": "MSDD90600-90度向下 侧面出线省空间",
+      "type": "adapter",
+      "certificates": [
+        "688ad2b18794e8620992c511ec09481.jpg",
+        "f29d9030f644ef1250df104844b1978.jpg"
+      ],
+      "diagram": [
+        "MSDD90600 CE RoHS证书_已签章.pdf",
+        "MSDD90600 RoHS_已签章.pdf"
+      ],
+      "show": [
+        "1 (33).jpg"
+      ],
+      "detail": {
+        "title": "面板安装连接器",
+        "description": "型号：MSDD90600-90度向下<br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：CE RoHs<br>开孔尺寸：21（+1）mm<br>IP：54<br>安装方式：前螺母安装 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=529674894791&pisk=grZ-0MABRsfu2er-n87D-NIwqF60JZ2Pk7y6xXckRSFYd7Got3gBhnMnLQ97dXmL9WFKZ21rqkFYd5BrK_r3kpeaMW3FUXcI9W2QrtjGj8yrYDtdsGjGNbqnm7LINX6BcADFnYijlcEqYD1G9ExIzGnUNgEEgHTjhjkKdQgQOqijEj9WRWGSlIMELDiQO2wfcYD6AvMIdm6xIvvWR3GBhiMZQLM7OD6YhjkIAYNIAATyeXvS9HUw_tLF-HDpAHZxeq_0Fjgi79DSyl2-M11_DGu-18GvA1WpxKhKgl1ck-PgP7D49GCxfPPYvVid2Ck8lRnjZcsJUfZopR4LB1dn3zN8c2EcLayYvb3_Vqp6xmiqdWgLu1Kie04xWuUPLIw7sbUs4JvOZ-3TkVkjlpLSqP2gYVZ52Clm7vFxSzC925syUlq9L0Ri6vY5HtLe84MVL-zqXrWlnckxstYD8eum3xhGHtLe84MqHfXcme8Eox5..&spm=a1z10.3-c-s.w4002-18367346758.9.1b9336ebEK6b0s",
+        "priority": 1
+      }
+    },
+    {
       "pid": "f06fa435f10b8759f9297446a16202a8",
       "name": "MSDD90600-USB2.0 USB2.0带防尘盖",
       "type": "adapter",
@@ -1960,6 +2304,54 @@
       }
     },
     {
+      "pid": "06ca0a2c8630232ef5e7078791b32885",
+      "name": "MSDD90700-CAT6A超六类",
+      "type": "adapter",
+      "certificates": [],
+      "diagram": [],
+      "show": [
+        "6A.png"
+      ],
+      "detail": {
+        "title": "防水插头连接器",
+        "description": "型号：MSDD90700<br>品牌：FUZUKI富崎<br>材质：ABS<br>IP：65<br>安装方式：对插",
+        "taobao_link": "https://item.taobao.com/item.htm?id=984928039204&pisk=fW3KTV_eqdv3P1Ld00tMEKIAvMdGe2heXvlfr82hVAHtNvw3EwZ51NNua91IN84-eYH8Ku9U-4HtNxdUZpuoX_hqBYEyT827eYcSxCYDoXlUzzwJnEYmx4WSrvCQdMO7CWVLC5ttTXlUz81GFnmsTUHS5es8VYa_C7PzPwZQPCU_i7z5Ru_I1RwaNeRhhn-cAwFK0WTk7dffDj-uqkej6n75yZFhn-lIVaQ8pRrKtXwOPagt2qNMsJtVs8z3LYNKUE7URunIp5aJyNaKLXg7X4vG1oU7puuIMnOs64eLc2ZOgacQJ7M72cJAoWUnXo3KYQWsOx2KcyllMpcTDcE41l1RAg-ooqh_0t2YZMO96gSzA5zNxOGC5b4yh5eDOksP4o3a6-ATQgSzv4VTnCvA4grgz&spm=a1z10.3-c-s.w4002-18367346758.49.3bdb36ebz05vtW&skuId=6114762495152",
+        "priority": 2
+      }
+    },
+    {
+      "pid": "f28a343294ddba25654b87ce22f1ef72",
+      "name": "MSDD90700-CAT7七类",
+      "type": "adapter",
+      "certificates": [],
+      "diagram": [],
+      "show": [
+        "cat7.png"
+      ],
+      "detail": {
+        "title": "防水插头连接器",
+        "description": "型号：MSDD90700-CAT7七类<br>品牌：FUZUKI富崎<br>材质：ABS<br>IP：65<br>安装方式：对插",
+        "taobao_link": "https://item.taobao.com/item.htm?id=984928039204&pisk=fW3KTV_eqdv3P1Ld00tMEKIAvMdGe2heXvlfr82hVAHtNvw3EwZ51NNua91IN84-eYH8Ku9U-4HtNxdUZpuoX_hqBYEyT827eYcSxCYDoXlUzzwJnEYmx4WSrvCQdMO7CWVLC5ttTXlUz81GFnmsTUHS5es8VYa_C7PzPwZQPCU_i7z5Ru_I1RwaNeRhhn-cAwFK0WTk7dffDj-uqkej6n75yZFhn-lIVaQ8pRrKtXwOPagt2qNMsJtVs8z3LYNKUE7URunIp5aJyNaKLXg7X4vG1oU7puuIMnOs64eLc2ZOgacQJ7M72cJAoWUnXo3KYQWsOx2KcyllMpcTDcE41l1RAg-ooqh_0t2YZMO96gSzA5zNxOGC5b4yh5eDOksP4o3a6-ATQgSzv4VTnCvA4grgz&spm=a1z10.3-c-s.w4002-18367346758.49.3bdb36ebz05vtW&skuId=6114762495152",
+        "priority": 2
+      }
+    },
+    {
+      "pid": "8a04ef792d53e07377bb62ec68a469f4",
+      "name": "MSDD90700-USB3.0 USB3.0AA",
+      "type": "adapter",
+      "certificates": [],
+      "diagram": [],
+      "show": [
+        "usb.png"
+      ],
+      "detail": {
+        "title": "防水插头连接器",
+        "description": "型号：MSDD90700-USB3.0 <br>品牌：FUZUKI富崎<br>材质：ABS<br>IP：65<br>安装方式：对插",
+        "taobao_link": "https://item.taobao.com/item.htm?id=984928039204&pisk=fW3KTV_eqdv3P1Ld00tMEKIAvMdGe2heXvlfr82hVAHtNvw3EwZ51NNua91IN84-eYH8Ku9U-4HtNxdUZpuoX_hqBYEyT827eYcSxCYDoXlUzzwJnEYmx4WSrvCQdMO7CWVLC5ttTXlUz81GFnmsTUHS5es8VYa_C7PzPwZQPCU_i7z5Ru_I1RwaNeRhhn-cAwFK0WTk7dffDj-uqkej6n75yZFhn-lIVaQ8pRrKtXwOPagt2qNMsJtVs8z3LYNKUE7URunIp5aJyNaKLXg7X4vG1oU7puuIMnOs64eLc2ZOgacQJ7M72cJAoWUnXo3KYQWsOx2KcyllMpcTDcE41l1RAg-ooqh_0t2YZMO96gSzA5zNxOGC5b4yh5eDOksP4o3a6-ATQgSzv4VTnCvA4grgz&spm=a1z10.3-c-s.w4002-18367346758.49.3bdb36ebz05vtW&skuId=6114762495152",
+        "priority": 2
+      }
+    },
+    {
       "pid": "034d03b61dadf9cbe1e2d9385d0f31c8",
       "name": "MSDD90726-CAT5E-ES正向 不带翅膀",
       "type": "adapter",
@@ -1970,7 +2362,7 @@
       ],
       "detail": {
         "title": "面板安装连接器",
-        "description": "型号：MSDD90726-CAT5E-ES正向 <br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：CE RoHs<br>IP：54<br>安装方式：后螺母安装 ",
+        "description": "型号：MSDD90726-CAT5E-ES正向 <br>品牌：FUZUKI富崎<br>材质：ABS<br>IP：54<br>安装方式：后螺母安装 ",
         "taobao_link": "https://item.taobao.com/item.htm?id=624900769727&pisk=gKHZV_qLfdpZ5NaTsvwVa0cnNK2TU-87Ixabmmm0fP4ilR1c3ygY5-w_GsWmJy6XXROY3qzEkPN_IP643muxlSDblxStL4WfCFdtmtybnUTWFLiTf-eDPbiqDVQT4ozDho40KREXmi03ELitXrINo3GHFi8sLj7cir00KWquc-q0s-xeKo4hIoXgnyxUJyqGI14gtyq_4s4mooV3xlZ0oNqcswV3qy40n-0mxHrb-rczor45LuPMcs9u5jC005zojyWrvvrio1na8eYELXParTaFntDUbD1MHsXyGzc857a--p6a3Dqq87GwzOuqm0h0Tx7Mf4mmWvyTUItTaXcIN5leStzICoPunWScnDyUJ4kQELbUvXmsiA3N0tqtCYN4yW-cHSwnF7co7iK-xRqmk7HXyOUim0H-N8JNylln4JSrvZE3TpMx_Zf4skEUPH-EuhsszF1l6WCAM5hLYzt9XsCYskEUPH-FMsFTpkzWXhC..&spm=a1z10.3-c-s.w4002-18367346758.10.6caa36eb0l8nmU",
         "priority": 1
       }
@@ -1986,7 +2378,7 @@
       ],
       "detail": {
         "title": "面板安装连接器",
-        "description": "型号：MSDD90726-CAT5E-F(正向)  <br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：CE RoHs<br>IP：54<br>安装方式：后螺母安装 ",
+        "description": "型号：MSDD90726-CAT5E-F(正向)  <br>品牌：FUZUKI富崎<br>材质：ABS<br>IP：54<br>安装方式：后螺母安装 ",
         "taobao_link": "https://item.taobao.com/item.htm?id=624900769727&pisk=gKHZV_qLfdpZ5NaTsvwVa0cnNK2TU-87Ixabmmm0fP4ilR1c3ygY5-w_GsWmJy6XXROY3qzEkPN_IP643muxlSDblxStL4WfCFdtmtybnUTWFLiTf-eDPbiqDVQT4ozDho40KREXmi03ELitXrINo3GHFi8sLj7cir00KWquc-q0s-xeKo4hIoXgnyxUJyqGI14gtyq_4s4mooV3xlZ0oNqcswV3qy40n-0mxHrb-rczor45LuPMcs9u5jC005zojyWrvvrio1na8eYELXParTaFntDUbD1MHsXyGzc857a--p6a3Dqq87GwzOuqm0h0Tx7Mf4mmWvyTUItTaXcIN5leStzICoPunWScnDyUJ4kQELbUvXmsiA3N0tqtCYN4yW-cHSwnF7co7iK-xRqmk7HXyOUim0H-N8JNylln4JSrvZE3TpMx_Zf4skEUPH-EuhsszF1l6WCAM5hLYzt9XsCYskEUPH-FMsFTpkzWXhC..&spm=a1z10.3-c-s.w4002-18367346758.10.6caa36eb0l8nmU",
         "priority": 1
       }
@@ -2002,7 +2394,7 @@
       ],
       "detail": {
         "title": "面板安装连接器",
-        "description": "型号：MSDD90726-CAT5E-R(反向) <br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：CE RoHs<br>IP：54<br>安装方式：后螺母安装 ",
+        "description": "型号：MSDD90726-CAT5E-R(反向) <br>品牌：FUZUKI富崎<br>材质：ABS<br>IP：54<br>安装方式：后螺母安装 ",
         "taobao_link": "https://item.taobao.com/item.htm?id=624900769727&pisk=gKHZV_qLfdpZ5NaTsvwVa0cnNK2TU-87Ixabmmm0fP4ilR1c3ygY5-w_GsWmJy6XXROY3qzEkPN_IP643muxlSDblxStL4WfCFdtmtybnUTWFLiTf-eDPbiqDVQT4ozDho40KREXmi03ELitXrINo3GHFi8sLj7cir00KWquc-q0s-xeKo4hIoXgnyxUJyqGI14gtyq_4s4mooV3xlZ0oNqcswV3qy40n-0mxHrb-rczor45LuPMcs9u5jC005zojyWrvvrio1na8eYELXParTaFntDUbD1MHsXyGzc857a--p6a3Dqq87GwzOuqm0h0Tx7Mf4mmWvyTUItTaXcIN5leStzICoPunWScnDyUJ4kQELbUvXmsiA3N0tqtCYN4yW-cHSwnF7co7iK-xRqmk7HXyOUim0H-N8JNylln4JSrvZE3TpMx_Zf4skEUPH-EuhsszF1l6WCAM5hLYzt9XsCYskEUPH-FMsFTpkzWXhC..&spm=a1z10.3-c-s.w4002-18367346758.10.6caa36eb0l8nmU",
         "priority": 1
       }
@@ -2018,7 +2410,7 @@
       ],
       "detail": {
         "title": "面板安装连接器",
-        "description": "型号：MSDD90726-CAT6-ES正向  <br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：CE RoHs<br>IP：54<br>安装方式：后螺母安装 ",
+        "description": "型号：MSDD90726-CAT6-ES正向  <br>品牌：FUZUKI富崎<br>材质：ABS<br>IP：54<br>安装方式：后螺母安装 ",
         "taobao_link": "https://item.taobao.com/item.htm?id=624900769727&pisk=gKHZV_qLfdpZ5NaTsvwVa0cnNK2TU-87Ixabmmm0fP4ilR1c3ygY5-w_GsWmJy6XXROY3qzEkPN_IP643muxlSDblxStL4WfCFdtmtybnUTWFLiTf-eDPbiqDVQT4ozDho40KREXmi03ELitXrINo3GHFi8sLj7cir00KWquc-q0s-xeKo4hIoXgnyxUJyqGI14gtyq_4s4mooV3xlZ0oNqcswV3qy40n-0mxHrb-rczor45LuPMcs9u5jC005zojyWrvvrio1na8eYELXParTaFntDUbD1MHsXyGzc857a--p6a3Dqq87GwzOuqm0h0Tx7Mf4mmWvyTUItTaXcIN5leStzICoPunWScnDyUJ4kQELbUvXmsiA3N0tqtCYN4yW-cHSwnF7co7iK-xRqmk7HXyOUim0H-N8JNylln4JSrvZE3TpMx_Zf4skEUPH-EuhsszF1l6WCAM5hLYzt9XsCYskEUPH-FMsFTpkzWXhC..&spm=a1z10.3-c-s.w4002-18367346758.10.6caa36eb0l8nmU",
         "priority": 1
       }
@@ -2034,7 +2426,7 @@
       ],
       "detail": {
         "title": "面板安装连接器",
-        "description": "型号：MSDD90726-CAT6A-90度<br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：CE RoHs<br>IP：54<br>安装方式：后螺母安装 ",
+        "description": "型号：MSDD90726-CAT6A-90度<br>品牌：FUZUKI富崎<br>材质：ABS<br>IP：54<br>安装方式：后螺母安装 ",
         "taobao_link": "https://item.taobao.com/item.htm?id=624900769727&pisk=gKHZV_qLfdpZ5NaTsvwVa0cnNK2TU-87Ixabmmm0fP4ilR1c3ygY5-w_GsWmJy6XXROY3qzEkPN_IP643muxlSDblxStL4WfCFdtmtybnUTWFLiTf-eDPbiqDVQT4ozDho40KREXmi03ELitXrINo3GHFi8sLj7cir00KWquc-q0s-xeKo4hIoXgnyxUJyqGI14gtyq_4s4mooV3xlZ0oNqcswV3qy40n-0mxHrb-rczor45LuPMcs9u5jC005zojyWrvvrio1na8eYELXParTaFntDUbD1MHsXyGzc857a--p6a3Dqq87GwzOuqm0h0Tx7Mf4mmWvyTUItTaXcIN5leStzICoPunWScnDyUJ4kQELbUvXmsiA3N0tqtCYN4yW-cHSwnF7co7iK-xRqmk7HXyOUim0H-N8JNylln4JSrvZE3TpMx_Zf4skEUPH-EuhsszF1l6WCAM5hLYzt9XsCYskEUPH-FMsFTpkzWXhC..&spm=a1z10.3-c-s.w4002-18367346758.10.6caa36eb0l8nmU",
         "priority": 1
       }
@@ -2050,7 +2442,7 @@
       ],
       "detail": {
         "title": "面板安装连接器",
-        "description": "型号：MSDD90726-CAT6A-F(正向) <br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：CE RoHs<br>IP：54<br>安装方式：后螺母安装 ",
+        "description": "型号：MSDD90726-CAT6A-F(正向) <br>品牌：FUZUKI富崎<br>材质：ABS<br>IP：54<br>安装方式：后螺母安装 ",
         "taobao_link": "https://item.taobao.com/item.htm?id=624900769727&pisk=gKHZV_qLfdpZ5NaTsvwVa0cnNK2TU-87Ixabmmm0fP4ilR1c3ygY5-w_GsWmJy6XXROY3qzEkPN_IP643muxlSDblxStL4WfCFdtmtybnUTWFLiTf-eDPbiqDVQT4ozDho40KREXmi03ELitXrINo3GHFi8sLj7cir00KWquc-q0s-xeKo4hIoXgnyxUJyqGI14gtyq_4s4mooV3xlZ0oNqcswV3qy40n-0mxHrb-rczor45LuPMcs9u5jC005zojyWrvvrio1na8eYELXParTaFntDUbD1MHsXyGzc857a--p6a3Dqq87GwzOuqm0h0Tx7Mf4mmWvyTUItTaXcIN5leStzICoPunWScnDyUJ4kQELbUvXmsiA3N0tqtCYN4yW-cHSwnF7co7iK-xRqmk7HXyOUim0H-N8JNylln4JSrvZE3TpMx_Zf4skEUPH-EuhsszF1l6WCAM5hLYzt9XsCYskEUPH-FMsFTpkzWXhC..&spm=a1z10.3-c-s.w4002-18367346758.10.6caa36eb0l8nmU",
         "priority": 1
       }
@@ -2066,7 +2458,7 @@
       ],
       "detail": {
         "title": "面板安装连接器",
-        "description": "型号：MSDD90726-CAT6A-R(反向)  <br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：CE RoHs<br>IP：54<br>安装方式：后螺母安装 ",
+        "description": "型号：MSDD90726-CAT6A-R(反向)  <br>品牌：FUZUKI富崎<br>材质：ABS<br>IP：54<br>安装方式：后螺母安装 ",
         "taobao_link": "https://item.taobao.com/item.htm?id=624900769727&pisk=gKHZV_qLfdpZ5NaTsvwVa0cnNK2TU-87Ixabmmm0fP4ilR1c3ygY5-w_GsWmJy6XXROY3qzEkPN_IP643muxlSDblxStL4WfCFdtmtybnUTWFLiTf-eDPbiqDVQT4ozDho40KREXmi03ELitXrINo3GHFi8sLj7cir00KWquc-q0s-xeKo4hIoXgnyxUJyqGI14gtyq_4s4mooV3xlZ0oNqcswV3qy40n-0mxHrb-rczor45LuPMcs9u5jC005zojyWrvvrio1na8eYELXParTaFntDUbD1MHsXyGzc857a--p6a3Dqq87GwzOuqm0h0Tx7Mf4mmWvyTUItTaXcIN5leStzICoPunWScnDyUJ4kQELbUvXmsiA3N0tqtCYN4yW-cHSwnF7co7iK-xRqmk7HXyOUim0H-N8JNylln4JSrvZE3TpMx_Zf4skEUPH-EuhsszF1l6WCAM5hLYzt9XsCYskEUPH-FMsFTpkzWXhC..&spm=a1z10.3-c-s.w4002-18367346758.10.6caa36eb0l8nmU",
         "priority": 1
       }
@@ -2219,8 +2611,16 @@
       "pid": "6ac74831bb445b65006821783d2f6e43",
       "name": "X5RJ45-CAT6A",
       "type": "adapter",
-      "certificates": [],
-      "diagram": [],
+      "certificates": [
+        "X5RJ45  CE RoHS证书_已签章(1).pdf",
+        "X5RJ45 RoHS_已签章(1).pdf"
+      ],
+      "diagram": [
+        "X5RJ45-CAT6A-模型.pdf",
+        "X5RJ45-CAT6A.bak",
+        "X5RJ45-CAT6A.dwg",
+        "X5RJ45-CAT6A.STEP"
+      ],
       "show": [
         "33.jpg"
       ],
@@ -2294,6 +2694,22 @@
         "title": "电磁阀插头",
         "description": "型号：70-29405-0000000<br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：CE RoHs<br>IP：54<br> ",
         "taobao_link": "https://item.taobao.com/item.htm?id=530737317953&pisk=g1kr2OZYVLprBcz8ZxwF_nllZve8FJ8_EvaQxDm3Vz4oR81hLrgLPJw7O6Wnkr6B28OLL2zqJzN7Ez6ULDuKRWDQRvS-3VWCFUd-x9yQKFT6Cdi8VJeH5bIrvFQ8VkbHdy4ui8EBxM00Idi-2yIP-hGDCMS5iQSlty03nSqgAJq3-Jx4nkrgKTVhEm40kr2hK92ho-qU4a4n-u4mmlqdrTVlEKX0xr43K7qH0m4YYJ4nBU435traZH1zIgoGaXFzS04VQmH4qGa9BrXnnxZuav08uoZj3uPzSSCU2OMolDDSeSdAGJnj_2lnSE17rfrZu5Gy7TuZyk04FAxpwSFnLvrxMe5U7XmS6XV2qLm4UzPnhqj1M8lnyvP-aMKtm80x6PFkMEEqFANUWS7Drmi4r5lEPEB3Pfomu5MflOwi6qkUsRjPwwE0gKMKawfUZoE45n-q83sS7U1GwSCd97hY0PtJ26CLZoE45n-V96F8Hoz623C..&spm=a1z10.3-c-s.w4002-18367346758.11.2b9d36ebrt1oKg&skuId=4486651466064",
+        "priority": 1
+      }
+    },
+    {
+      "pid": "3fd4be74264f475166e243fabb8224e1",
+      "name": "数据传输通信盒DB25网口适用于三菱发那科新代数控系统",
+      "type": "other",
+      "certificates": [],
+      "diagram": [],
+      "show": [
+        "z (26).jpg"
+      ],
+      "detail": {
+        "title": "数据传输通讯盒",
+        "description": "型号：DB25<br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：CE RoHs<br>IP：54<br> ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=915641464362&pisk=ghUjqQ_96KvXbmg91mfrObQuQy06c_7UHCGTt5L26q3A1RNQdmUquRysXJNI7cHNmRi_Q8mTuqP4FAeUCfz475ds68uxjokZ3Ag_sJ1PLw7UiS0iv9WF8Ziiy9gxMAKxH1H-9X1rM2K9dW3iW9W64FncRV2AfRwWD3h-EfG9Hcete7hEejKx6RH-2Xh9kVeTB43-_fH9HmKxyLHoGjKx6A3-wXGpkhnTB7CStYHtWmeTwAKPFbjjHS10ObKaNOK0LYT9WzGRIvFXaG28ujNrdSUl4g5iGmMLMY63m68K25m_SCYsbSE3IXevHOMgP7UYvJBy0xEI1Wr_p1-macamPAUA-BM8l5aSmuJvDXgjhDUxcB53icE7PqzAIHVzNxnIzuSl3cubhkDnDgXuC7M4BriJhTkaY7zxVJByPRm_Xru8kTQC41TEd1HXfQiH5bMFN_tMjfkHBSk2DrinDbcz8_1WhhmxZbMFN_tMjmhoaD55NKtG.&spm=a1z10.3-c-s.w4002-18367346758.21.c03536ebgYR8Zf",
         "priority": 1
       }
     },
@@ -2614,6 +3030,54 @@
       }
     },
     {
+      "pid": "d7859c7446b8d4bfa09cc74292e6e008",
+      "name": "DR1金属网络模块支架RJ45光纤USB电话TYPEC音频DIN导轨安装屏蔽",
+      "type": "other",
+      "certificates": [],
+      "diagram": [],
+      "show": [
+        "21.png"
+      ],
+      "detail": {
+        "title": "金属网络模块支架",
+        "description": "型号：DR1-01单槽CAT5E<br>品牌：FUZUKI富崎<br>材质：不锈钢<br>安装方式：卡扣式安装",
+        "taobao_link": "https://item.taobao.com/item.htm?id=1003558375104&pisk=fZRxGgVqI0m0pChYLdMojDeLH-3uBILqen8QsGj0C3KJ5nscjS6_P7_G7oaX5Gf9XhKOmOiViCKJ5H3VSmRMePLe2hBZuGj1XhY6n4cntE8V_1stxXcHnCr6shQfhNwS5w73Cg6SeQ8V_1iTr5Mn9E-DbFRCWOgRNN__G1sfhUgRSw_f1i6_VU_1VGTbokMEK-NAkp7jsbouRJKZziWAAUHU15FhukjHlcNT1QpRFMsh25N6wZL9khq49AjBLiXhP3GuM1L5WHQpDuiR1Ud29TOj45ByXG6BaTHbNHCvX9OfePNel_sAwaOISJSkwix6MTg39OfWt91XEYocIsQpfI-YW5tC4yAH9U6UxMQgh438QRWfz_y0VENWS1oCyM0fhRyNpQ7Rx4IzQRWvsaInrDeaQTfN.&spm=a1z10.3-c-s.w4002-18367346758.21.3bdb36ebz05vtW&skuId=5998094569239",
+        "priority": 2
+      }
+    },
+    {
+      "pid": "e8b9c1a0ea831584980d7d7cc5ddfdad",
+      "name": "DR2金属网络模块支架RJ45光纤USB电话TYPEC音频DIN导轨安装屏蔽",
+      "type": "other",
+      "certificates": [],
+      "diagram": [],
+      "show": [
+        "22.png"
+      ],
+      "detail": {
+        "title": "金属网络模块支架",
+        "description": "型号：DR2-0103双槽CAT5E+USB3.0AA<br>品牌：FUZUKI富崎<br>材质：不锈钢<br>安装方式：卡扣式安装",
+        "taobao_link": "https://item.taobao.com/item.htm?id=1003558375104&pisk=fZRxGgVqI0m0pChYLdMojDeLH-3uBILqen8QsGj0C3KJ5nscjS6_P7_G7oaX5Gf9XhKOmOiViCKJ5H3VSmRMePLe2hBZuGj1XhY6n4cntE8V_1stxXcHnCr6shQfhNwS5w73Cg6SeQ8V_1iTr5Mn9E-DbFRCWOgRNN__G1sfhUgRSw_f1i6_VU_1VGTbokMEK-NAkp7jsbouRJKZziWAAUHU15FhukjHlcNT1QpRFMsh25N6wZL9khq49AjBLiXhP3GuM1L5WHQpDuiR1Ud29TOj45ByXG6BaTHbNHCvX9OfePNel_sAwaOISJSkwix6MTg39OfWt91XEYocIsQpfI-YW5tC4yAH9U6UxMQgh438QRWfz_y0VENWS1oCyM0fhRyNpQ7Rx4IzQRWvsaInrDeaQTfN.&spm=a1z10.3-c-s.w4002-18367346758.21.3bdb36ebz05vtW&skuId=5998094569239",
+        "priority": 2
+      }
+    },
+    {
+      "pid": "e20e71d2471e0d21a3b09b65940bdb1a",
+      "name": "DR3金属网络模块支架RJ45光纤USB电话TYPEC音频DIN导轨安装屏蔽",
+      "type": "other",
+      "certificates": [],
+      "diagram": [],
+      "show": [
+        "23.png"
+      ],
+      "detail": {
+        "title": "金属网络模块支架",
+        "description": "型号：DR3-010813双槽网口HDMI+USB CAT6A+HDMI+USB3.0AA<br>品牌：FUZUKI富崎<br>材质：不锈钢<br>安装方式：卡扣式安装",
+        "taobao_link": "https://item.taobao.com/item.htm?id=1003558375104&pisk=fZRxGgVqI0m0pChYLdMojDeLH-3uBILqen8QsGj0C3KJ5nscjS6_P7_G7oaX5Gf9XhKOmOiViCKJ5H3VSmRMePLe2hBZuGj1XhY6n4cntE8V_1stxXcHnCr6shQfhNwS5w73Cg6SeQ8V_1iTr5Mn9E-DbFRCWOgRNN__G1sfhUgRSw_f1i6_VU_1VGTbokMEK-NAkp7jsbouRJKZziWAAUHU15FhukjHlcNT1QpRFMsh25N6wZL9khq49AjBLiXhP3GuM1L5WHQpDuiR1Ud29TOj45ByXG6BaTHbNHCvX9OfePNel_sAwaOISJSkwix6MTg39OfWt91XEYocIsQpfI-YW5tC4yAH9U6UxMQgh438QRWfz_y0VENWS1oCyM0fhRyNpQ7Rx4IzQRWvsaInrDeaQTfN.&spm=a1z10.3-c-s.w4002-18367346758.21.3bdb36ebz05vtW&skuId=5998094569239",
+        "priority": 2
+      }
+    },
+    {
       "pid": "5389cfb4595b68fdd9b42e59a4b923fe",
       "name": "H3858627国产兼容 M8X1盲孔堵头",
       "type": "other",
@@ -2690,22 +3154,6 @@
         "title": "三色多层信号灯",
         "description": "型号：HXVGB3MA-302BQ-RYG <br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：CE RoHs<br>IP：54<br> ",
         "taobao_link": "https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-18367346758.40.133b36ebdDLKlN&id=906991681027&pisk=giDt2B_fGeYglekTxcRhiTa33ztn6BmwJVo5nr4GG23K825mscTZkn3ImjfiomZbH2gDbPmX7qHYRmlMbSYNDX3ZV50x0hrblqgYofAHEcoa3-TlHLvobhft-k0TcS1BcoZ15HV_FB_J0-TkrKChA58ghqA9Ki9COuzQfo6_GHUQ0uebfrNXvyZY4r6slqtLOoE5fo6_GJ9Qbys_lo16dJZ8flabGOtKAyr7hrgb1HnICXsToGaAHbS_N5AW_k6fhvETOBm_R43WmlNTacUponMpU5USfyBXznBcPrUEFeAKY4csSkuveeeSa2HYN-pOzlhI2JagFdIaPAqxqjnJyZqE1VHQMvx2_DHYW7M_9g60dJrjlSheyTqTIXF-Bf-VRcguWbwZmgLiv7hLakNCD1wiZ0D4NA9OzyVzD2Fo6UBtPgzIEYQnja48m1tpvs541kPzxqZIfTnhbkUkx6fVgWqUvzxpvs541krLrHvhgsP3Y",
-        "priority": 1
-      }
-    },
-    {
-      "pid": "f8262e605e3882ab9838ba28ce472ba0",
-      "name": "I数据传输通信盒DB25网口适用于三菱发那科新代数控系统",
-      "type": "other",
-      "certificates": [],
-      "diagram": [],
-      "show": [
-        "z (26).jpg"
-      ],
-      "detail": {
-        "title": "数据传输通讯盒",
-        "description": "型号：DB25<br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：CE RoHs<br>IP：54<br> ",
-        "taobao_link": "https://item.taobao.com/item.htm?id=915641464362&pisk=ghUjqQ_96KvXbmg91mfrObQuQy06c_7UHCGTt5L26q3A1RNQdmUquRysXJNI7cHNmRi_Q8mTuqP4FAeUCfz475ds68uxjokZ3Ag_sJ1PLw7UiS0iv9WF8Ziiy9gxMAKxH1H-9X1rM2K9dW3iW9W64FncRV2AfRwWD3h-EfG9Hcete7hEejKx6RH-2Xh9kVeTB43-_fH9HmKxyLHoGjKx6A3-wXGpkhnTB7CStYHtWmeTwAKPFbjjHS10ObKaNOK0LYT9WzGRIvFXaG28ujNrdSUl4g5iGmMLMY63m68K25m_SCYsbSE3IXevHOMgP7UYvJBy0xEI1Wr_p1-macamPAUA-BM8l5aSmuJvDXgjhDUxcB53icE7PqzAIHVzNxnIzuSl3cubhkDnDgXuC7M4BriJhTkaY7zxVJByPRm_Xru8kTQC41TEd1HXfQiH5bMFN_tMjfkHBSk2DrinDbcz8_1WhhmxZbMFN_tMjmhoaD55NKtG.&spm=a1z10.3-c-s.w4002-18367346758.21.c03536ebgYR8Zf",
         "priority": 1
       }
     },
@@ -2790,18 +3238,35 @@
       }
     },
     {
+      "pid": "043de61fcce405cc637f622834894564",
+      "name": "SUSP2-0101双网口银色",
+      "type": "other",
+      "certificates": [],
+      "diagram": [],
+      "show": [
+        "232.png"
+      ],
+      "detail": {
+        "title": "网口面板",
+        "description": "型号：SUSP2-0101<br>品牌：FUZUKI富崎<br>材质：不锈钢<br>IP：54<br>安装方式：面板安装",
+        "taobao_link": "https://item.taobao.com/item.htm?id=968475079704&pisk=gD_K4XgUqR2nb5HE9TqiZkO9f8FgslfUX95jrLvnVOBON99HE2tS1VOkavGCNLYReTBJK3we-aBONtFeZJ7lXbCVBTKzTLvWeTf5x540o65ezU98nr4cLev329nBV2NWCQO4sBT6fEQwzUw0ec0WYrLPdIZuxYi61dRJNYg5FdT6GdOBOD6WChOXN2TWPTNtCIAoO4iBFhN9tIDSP2OC1AOHgLg5FUN9CdRWPB6WP5C6QQGNOWpaRIuRvST2kEMwg4g5WBK_j69_ZNQ69aJAOw3rzgRpvK1BBJGA0f-1a3Qra4KGOiWyG9MQpU19MtdApucypG1c-pfx92CHJaC5VhFQR1Lpp379AbipJg6FyHSKaS56ROS23HZaQCQho3p2XAwCs1pBDgB3Q49hD169mNDioF1fXFIznZbA1nkDHQmQ65nr4HOZP_5y2V1kz-O9nWtI40-A7Cp06pir4H-k6KVgF0oyXL1..&spm=a1z10.3-c-s.w4002-18367346758.11.6f6136ebCDkVxd&skuId=6083036170681",
+        "priority": 1
+      }
+    },
+    {
       "pid": "e52216f4b64079fb7d0c36587175f248",
       "name": "USPB2",
       "type": "other",
       "certificates": [],
       "diagram": [],
       "show": [
-        "11.jpg"
+        "2323.png"
       ],
       "detail": {
         "title": "网口面板",
         "description": "型号：USPB2<br>品牌：FUZUKI富崎<br>材质：不锈钢<br>IP：54<br>安装方式：面板安装",
-        "taobao_link": "https://item.taobao.com/item.htm?id=968475079704&pisk=gD_K4XgUqR2nb5HE9TqiZkO9f8FgslfUX95jrLvnVOBON99HE2tS1VOkavGCNLYReTBJK3we-aBONtFeZJ7lXbCVBTKzTLvWeTf5x540o65ezU98nr4cLev329nBV2NWCQO4sBT6fEQwzUw0ec0WYrLPdIZuxYi61dRJNYg5FdT6GdOBOD6WChOXN2TWPTNtCIAoO4iBFhN9tIDSP2OC1AOHgLg5FUN9CdRWPB6WP5C6QQGNOWpaRIuRvST2kEMwg4g5WBK_j69_ZNQ69aJAOw3rzgRpvK1BBJGA0f-1a3Qra4KGOiWyG9MQpU19MtdApucypG1c-pfx92CHJaC5VhFQR1Lpp379AbipJg6FyHSKaS56ROS23HZaQCQho3p2XAwCs1pBDgB3Q49hD169mNDioF1fXFIznZbA1nkDHQmQ65nr4HOZP_5y2V1kz-O9nWtI40-A7Cp06pir4H-k6KVgF0oyXL1..&spm=a1z10.3-c-s.w4002-18367346758.11.6f6136ebCDkVxd&skuId=6083036170681"
+        "taobao_link": "https://item.taobao.com/item.htm?id=968475079704&pisk=gD_K4XgUqR2nb5HE9TqiZkO9f8FgslfUX95jrLvnVOBON99HE2tS1VOkavGCNLYReTBJK3we-aBONtFeZJ7lXbCVBTKzTLvWeTf5x540o65ezU98nr4cLev329nBV2NWCQO4sBT6fEQwzUw0ec0WYrLPdIZuxYi61dRJNYg5FdT6GdOBOD6WChOXN2TWPTNtCIAoO4iBFhN9tIDSP2OC1AOHgLg5FUN9CdRWPB6WP5C6QQGNOWpaRIuRvST2kEMwg4g5WBK_j69_ZNQ69aJAOw3rzgRpvK1BBJGA0f-1a3Qra4KGOiWyG9MQpU19MtdApucypG1c-pfx92CHJaC5VhFQR1Lpp379AbipJg6FyHSKaS56ROS23HZaQCQho3p2XAwCs1pBDgB3Q49hD169mNDioF1fXFIznZbA1nkDHQmQ65nr4HOZP_5y2V1kz-O9nWtI40-A7Cp06pir4H-k6KVgF0oyXL1..&spm=a1z10.3-c-s.w4002-18367346758.11.6f6136ebCDkVxd&skuId=6083036170681",
+        "priority": 1
       }
     },
     {
@@ -2822,30 +3287,6 @@
     }
   ],
   "panel": [
-    {
-      "pid": "badae2248026f63b1a0322947a91932f",
-      "name": "机床通信盒接口面板组合插P-10000可加网口usb串口",
-      "type": "panel",
-      "certificates": [
-        "certificate3.png",
-        "certificates1.jpeg",
-        "certificates2.jpeg"
-      ],
-      "diagram": [
-        "P-11110-808.pdf",
-        "P11110-808说明书.pdf",
-        "P型组合插座.STEP"
-      ],
-      "show": [
-        "z (22).jpg"
-      ],
-      "detail": {
-        "title": "前置面板接口",
-        "description": "型号：P10000<br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：CE <br>开孔尺寸：55x90.5mm<br>IP：65<br>安装方式：面板安装（挡块旋转紧固）",
-        "taobao_link": "https://item.taobao.com/item.htm?id=40036997308&pisk=gzFxkJx6Cgjm1CVxrrWkIBgOOD7oHT42PozBscmDCuE84uJgnrs4XNE7SRv0jPgs6uZGum410lFtVl72sZP0XAam2qtshqgWVqu9fqa_sVNtg72Dsmjq6PZn6Mjht644uvl1xMbacJwrgVn6fCtiPUgI6qOC8jPLufl1XUA1K6U40YbhzIgsPa3iSnObfmTSN0u91VZscYtS7Vls1lOfNUgsWItXhm_-PVu6Gd9Xh3iS7qGsflOfyzirWfisI2YxjEi96J8jgTLCTKxMj73xHcdi2CnujBDtApik6Cnzexp0l0d617ekvL5Kc98objm4uqENTIljBRNmNSs51XwU25HI9ObqOSz_LRayDNnbroPKGWIvi4DtD8NjeFO_kbyjIREADKobnuHEPYTOT4qnVrPbeN-7lkmxG4MlOwUSC8VqLSjWMXwUoj2_AgvmcJ3142N3934DxD3MhaQJQdkjzvuuf4aX9zYqyDbkEdJZE4u-xaQJQdkjz4nhr_vwQY0P.&spm=a1z10.5-c-s.w4002-18436959726.39.2f3c1719NeOVxe",
-        "priority": 1
-      }
-    },
     {
       "pid": "041090f1ba386764020617c7d44f5b08",
       "name": "A10000 万用插座20A",
@@ -3519,6 +3960,32 @@
       }
     },
     {
+      "pid": "bd583bd2b69912f4d5b6bc785e0cafdc",
+      "name": "A833 插座网口,3USB",
+      "type": "panel",
+      "certificates": [
+        "certificate3.png",
+        "certificates1.jpeg",
+        "certificates2.jpeg"
+      ],
+      "diagram": [
+        "A828 CE RoHS证书_已签章.pdf",
+        "A828 CE证书.pdf",
+        "A828 EU RoHS_已签章.pdf",
+        "A828-模型（2023.10.7）.pdf",
+        "A828.bak"
+      ],
+      "show": [
+        "4444.png"
+      ],
+      "detail": {
+        "title": "前置面板接口",
+        "description": "型号：A833<br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：CE <br>开孔尺寸：55x90.5mm<br>IP：65<br>安装方式：面板安装 （挡块旋转紧固）",
+        "taobao_link": "https://item.taobao.com/item.htm?id=981306345922&pisk=fEgrMWmMRULP7095f8zeurq0Xma8DPp_r2wQtXc3N82odzsh8-MLFya7AM7nH-_BwztL8vyqp8Z7r8_U8XkKdk0Qd25-uA7CPLK-twzQ-d965FG-NyUHC2SO2jf8O5Shr9whorALNx2M5FG-g57aqI8sVJrY2lN3-u2oiZ2Y9MjnKuXDo-FLtT43EIlDlWzFDTRaXGDQn0ChiT3OWZac-w0kJuyNRRNYZqWYVRGozULJ97rzIb22E1oUmocLY2Cd8zloXvFiETvz-jPZQ5kyA6ermfg7Ff5Pzbar8Xm30QYogzyzvqrltgzrxY3U205p6j4oHceTqnpYg4g_YREVnLcjg8qZYgS5pSv1d2nPKMruMSy6gI8ND4JRQkMj2MIL0nF4CBbhvMEuMSy6gISdvouYgROh-&spm=a1z10.3-c-s.w4002-18367346758.12.1f5a36ebbciRWs&skuId=5939628437678",
+        "priority": 1
+      }
+    },
+    {
       "pid": "25e7eda32ceb5b5f318e0e6dbb623cf8",
       "name": "A858 欧标插座网口USB串口",
       "type": "panel",
@@ -3666,6 +4133,32 @@
         "title": "前置面板接口",
         "description": "型号：AJ828<br>品牌：FUZUKI富崎<br>材质：不锈钢<br>产品资质认证：CE <br>开孔尺寸：56x91mm<br>IP：65<br>安装方式：面板安装 （挡块旋转紧固）",
         "taobao_link": "https://item.taobao.com/item.htm?id=934055330750&pisk=gvbK7AgUqR2npvME9TqiZksUIXPgnlfUB95jrLvnVOBOQOolx6wFe7B1ZgmhE_OWyO6uTpf7LTQJC_S3T32EwGBFGHXRaWRWFT6JEMqgo65ezUwDer4cTQoTYiBJA4Gsf1RqRXZMAsZ_h7w0nr48AfT8p-XkcWbNfIdXPBtSPfN9NQHBPHtW15dWZv9WdT1_6dRqPYtBNAM6gILSOp951VODa29SRB1_6QJ6OQ6WP5L6QQTWFTTS_sNpQyOqyMFfeS5TnC0SPNdpflfBCl6P5BQvH6_K5VGy9HpfOdeIMgK6f_-RzbuJj6sVUI6IdJL56IBvM9EoapI1iwvhMX3dteQRNgtTOy19JpKPWHGSveI5LaKFvbPV1e6N0K-QbRRO-ZxJ3hH_d1f9dnIRKRuWKiC1BnbiIqY1GGLO43_ck1tqnKdoA5Ft40-B_41Pa3dUu28H6KVBA0oyDNR9n5Ft40-B_Cp0O2ir4nQN.&spm=a1z10.3-c-s.w4002-18367346758.37.7c0036ebZnAIrb&skuId=5824953421914",
+        "priority": 1
+      }
+    },
+    {
+      "pid": "e82269dfa913484f0b57b17740449ae6",
+      "name": "ARP万用插座双网口串口",
+      "type": "panel",
+      "certificates": [
+        "certificate3.png",
+        "certificates1.jpeg",
+        "certificates2.jpeg"
+      ],
+      "diagram": [
+        "A828 CE RoHS证书_已签章.pdf",
+        "A828 CE证书.pdf",
+        "A828 EU RoHS_已签章.pdf",
+        "A828-模型（2023.10.7）.pdf",
+        "A828.bak"
+      ],
+      "show": [
+        "2323.png"
+      ],
+      "detail": {
+        "title": "前置面板接口",
+        "description": "型号：ARP万用插座双网口串口<br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：CE <br>开孔尺寸：55x90.5mm<br>IP：65<br>安装方式：面板安装 （挡块旋转紧固）",
+        "taobao_link": "https://item.taobao.com/item.htm?id=1008196837546&pisk=f5QnG4D9VM-C5QMHGlYQYJN4FMZtvvTWdT3JeUpzbdJ6ypd8ONvlQOJpw7OLZGffEpF7AeIMEOWML2FQA3JlddB-y6Qlf4ffNwFByWTCOUTzH-Uvr61BPdfChn_nbVRf_DuyTErZn7TzH-Ukaq_geU5dJaNnvhJ6Z2JyUTJw7Q9wT4-PUd-wgQuezU8e-JlejBVMFHPsVAwrK5mp3K5eL6Cd7btiA6vGHTQwt1XlTggrzNAHxNJDZxDyvg5XcwB3rVTdiG8wtTz4LF5VjsKh--0pF9_kjw-KaJ-HqpjN8hcrz6LwQnSlKJmBLMBMcC-ZZrOOHd5C8GVSQ6WvKeRwXrPc_3Szcco4PXgW_7QZV0te1CvY5_wRh48IB3NgsmCWYCOPD5ViVI-e1Cmgs5mq_HR6OHC..&spm=a1z10.3-c-s.w4002-18367346758.16.265936ebxpEAXB&skuId=6170160750551",
         "priority": 1
       }
     },
@@ -5657,6 +6150,58 @@
       }
     },
     {
+      "pid": "30b9affcc0c6453dc799dbf9cd9bb95e",
+      "name": "MUC00输出USBA和TYPEC AC220V输入USB输出",
+      "type": "panel",
+      "certificates": [
+        "微信图片_20250404155424.jpg",
+        "微信图片_20250404155456.jpg",
+        "微信图片_20250404155501.jpg"
+      ],
+      "diagram": [
+        "新M0111.pdf",
+        "新M1000.pdf",
+        "M0111外观专利.pdf",
+        "M1000  CCI210500076EN EU ROHS_已签章.pdf",
+        "M1000 CCI210500076EN CE RoHS证书_已签章.pdf",
+        "M1000.stp",
+        "M1000外观专利证书.pdf"
+      ],
+      "show": [
+        "1212.png"
+      ],
+      "detail": {
+        "title": "前置面板接口",
+        "description": "型号：MUC00 <br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：RoHs<br>IP：65<br>开孔尺寸：59x42.5mm<br>安装方式：面板安装（挡块旋转紧固）",
+        "taobao_link": "https://item.taobao.com/item.htm?id=975409937981&pisk=f7b-MTgzx-2oHfU-bMZ0KRFnxkPmvaCzHT5s-pvoAtBA3tohq_wPpWBftMmlK6OBJt63aLfQU9Qph6SuaH2r9iBP13XdT7RBd96pKgq0S_5y8ewMpP4GaQoR2p6pA3tjGsRtR4TsAAC68ewgpm0B4PLFeaVWpBKbMBAed26BFsMX3BnBN99WcxOeTe9BlUoSZmwKoIjwNy4qyjrcgy9W2d1Yb2gLeIDMp_wjJ2_ADF9_SK3IRZdR9_B6PVEHCGJkjI6bo4LdGBB96THbHe1AzNKfP-up09pBfZ-YVq69y9K1PnhI7_TXeEdf5WmwnZpldaKbsVKHlNx6Piq4EHYJ69_PeX3CCg5GSNCXbAv9t0NYMDoeVI8qqx1WaPuyrIpgN3iEYhQ2MdVYMDoeVIRvI7gSYD-Ou&spm=a1z10.3-c-s.w4002-18367346758.16.1f5a36ebbciRWs",
+        "priority": 1
+      }
+    },
+    {
+      "pid": "05c2602354122de2e726511c09811460",
+      "name": "P-10000可加网口usb串口",
+      "type": "panel",
+      "certificates": [
+        "certificate3.png",
+        "certificates1.jpeg",
+        "certificates2.jpeg"
+      ],
+      "diagram": [
+        "P-11110-808.pdf",
+        "P11110-808说明书.pdf",
+        "P型组合插座.STEP"
+      ],
+      "show": [
+        "z (22).jpg"
+      ],
+      "detail": {
+        "title": "前置面板接口",
+        "description": "型号：P10000<br>品牌：FUZUKI富崎<br>材质：ABS<br>产品资质认证：CE <br>开孔尺寸：55x90.5mm<br>IP：65<br>安装方式：面板安装（挡块旋转紧固）",
+        "taobao_link": "https://item.taobao.com/item.htm?id=40036997308&pisk=gzFxkJx6Cgjm1CVxrrWkIBgOOD7oHT42PozBscmDCuE84uJgnrs4XNE7SRv0jPgs6uZGum410lFtVl72sZP0XAam2qtshqgWVqu9fqa_sVNtg72Dsmjq6PZn6Mjht644uvl1xMbacJwrgVn6fCtiPUgI6qOC8jPLufl1XUA1K6U40YbhzIgsPa3iSnObfmTSN0u91VZscYtS7Vls1lOfNUgsWItXhm_-PVu6Gd9Xh3iS7qGsflOfyzirWfisI2YxjEi96J8jgTLCTKxMj73xHcdi2CnujBDtApik6Cnzexp0l0d617ekvL5Kc98objm4uqENTIljBRNmNSs51XwU25HI9ObqOSz_LRayDNnbroPKGWIvi4DtD8NjeFO_kbyjIREADKobnuHEPYTOT4qnVrPbeN-7lkmxG4MlOwUSC8VqLSjWMXwUoj2_AgvmcJ3142N3934DxD3MhaQJQdkjzvuuf4aX9zYqyDbkEdJZE4u-xaQJQdkjz4nhr_vwQY0P.&spm=a1z10.5-c-s.w4002-18436959726.39.2f3c1719NeOVxe",
+        "priority": 1
+      }
+    },
+    {
       "pid": "81c439cb4f74e568504634e294a41433",
       "name": "P-10100机床组合插座USB电源3孔前置面板接口",
       "type": "panel",
@@ -6866,17 +7411,199 @@
       }
     },
     {
+      "pid": "a516b8328f64a1b4269b1f94532b2189",
+      "name": "MSDD90325-2USB3.0AA-0.5m双USB带0.5米电缆",
+      "type": "wire",
+      "certificates": [],
+      "diagram": [
+        "MSDD90325-2USB3.0AA-0.5M.step"
+      ],
+      "show": [
+        "2323.png"
+      ],
+      "detail": {
+        "title": "公转母USB连接器",
+        "description": "型号：MSDD90325-2USB3.0AA-0.5m双USB带0.5米电缆<br>品牌：FUZUKI富崎<br>材质：ABS<br>开孔尺寸：22mm<br>IP：54<br>安装方式：后螺母安装 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=940038806043&pisk=gwAIW8ZnzkqIsr9Ad_uaGRJt8gf5dVl2ez_JoUFUy6Cd2zt9ykQ8wwCOXZQCe7khTT1WXGRFYe5d27tyzB-yyQ7JN6AwL7SEx_TJ0_iq0jl2-eXlwmoVO9G1a6b52wC84NBO-__dXOH6seflw0w-WeCX-H0r8f4dyN31zazd23ILXRIGPJEp2MBTXablwgKJ2lFOPwN8JgB-5fQcygFLw7LTBabY9_CJ21FOjaCRJ3C-5FIGyXH3farC7egfRsv5dVEe6GN8wC_tqiLIkW_2OwOGcedQ5P6lR9svJGiLlK4GBUXWZzV5QepDqZKLvD1J5ZtflHMzrM99uBSelyNB86OWyLBsJXL1OM6k19U8d69JxQ6Hdz0DW6KMniXKIcb6TIW5mOZtvF81vt9WYcVRYKT9ftRabS59kd114eNVcirzFP60NNsq5VwuEotUrIp4oPLOpNbKgVg_bQXdSNwi5VZCv9QG7w3s5-zR.&spm=a1z10.3-c-s.w4002-18367346758.33.6f6136ebCDkVxd&skuId=6003644626847",
+        "priority": 1
+      }
+    },
+    {
+      "pid": "17f1a18c793b22f41972d3061b6884cb",
+      "name": "MSDD90325-2USB3.0AA-1.5m双USB带1.5米电缆",
+      "type": "wire",
+      "certificates": [],
+      "diagram": [
+        "MSDD90325-2USB3.0AA-0.5M.step"
+      ],
+      "show": [
+        "22332323.png"
+      ],
+      "detail": {
+        "title": "公转母USB连接器",
+        "description": "型号：MSDD90325-2USB3.0AA-1.5m双USB带1.5米电缆<br>品牌：FUZUKI富崎<br>材质：ABS<br>开孔尺寸：22mm<br>IP：54<br>安装方式：后螺母安装 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=940038806043&pisk=gwAIW8ZnzkqIsr9Ad_uaGRJt8gf5dVl2ez_JoUFUy6Cd2zt9ykQ8wwCOXZQCe7khTT1WXGRFYe5d27tyzB-yyQ7JN6AwL7SEx_TJ0_iq0jl2-eXlwmoVO9G1a6b52wC84NBO-__dXOH6seflw0w-WeCX-H0r8f4dyN31zazd23ILXRIGPJEp2MBTXablwgKJ2lFOPwN8JgB-5fQcygFLw7LTBabY9_CJ21FOjaCRJ3C-5FIGyXH3farC7egfRsv5dVEe6GN8wC_tqiLIkW_2OwOGcedQ5P6lR9svJGiLlK4GBUXWZzV5QepDqZKLvD1J5ZtflHMzrM99uBSelyNB86OWyLBsJXL1OM6k19U8d69JxQ6Hdz0DW6KMniXKIcb6TIW5mOZtvF81vt9WYcVRYKT9ftRabS59kd114eNVcirzFP60NNsq5VwuEotUrIp4oPLOpNbKgVg_bQXdSNwi5VZCv9QG7w3s5-zR.&spm=a1z10.3-c-s.w4002-18367346758.33.6f6136ebCDkVxd&skuId=6003644626847",
+        "priority": 1
+      }
+    },
+    {
+      "pid": "a0cda616a14b7db70f699cb80ed3d3ad",
+      "name": "MSDD90325-2USB3.0AA-1m双USB带1米电缆",
+      "type": "wire",
+      "certificates": [],
+      "diagram": [
+        "MSDD90325-2USB3.0AA-0.5M.step"
+      ],
+      "show": [
+        "2324.png"
+      ],
+      "detail": {
+        "title": "公转母USB连接器",
+        "description": "型号：MSDD90325-2USB3.0AA-1m双USB带1米电缆<br>品牌：FUZUKI富崎<br>材质：ABS<br>开孔尺寸：22mm<br>IP：54<br>安装方式：后螺母安装 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=940038806043&pisk=gwAIW8ZnzkqIsr9Ad_uaGRJt8gf5dVl2ez_JoUFUy6Cd2zt9ykQ8wwCOXZQCe7khTT1WXGRFYe5d27tyzB-yyQ7JN6AwL7SEx_TJ0_iq0jl2-eXlwmoVO9G1a6b52wC84NBO-__dXOH6seflw0w-WeCX-H0r8f4dyN31zazd23ILXRIGPJEp2MBTXablwgKJ2lFOPwN8JgB-5fQcygFLw7LTBabY9_CJ21FOjaCRJ3C-5FIGyXH3farC7egfRsv5dVEe6GN8wC_tqiLIkW_2OwOGcedQ5P6lR9svJGiLlK4GBUXWZzV5QepDqZKLvD1J5ZtflHMzrM99uBSelyNB86OWyLBsJXL1OM6k19U8d69JxQ6Hdz0DW6KMniXKIcb6TIW5mOZtvF81vt9WYcVRYKT9ftRabS59kd114eNVcirzFP60NNsq5VwuEotUrIp4oPLOpNbKgVg_bQXdSNwi5VZCv9QG7w3s5-zR.&spm=a1z10.3-c-s.w4002-18367346758.33.6f6136ebCDkVxd&skuId=6003644626847",
+        "priority": 1
+      }
+    },
+    {
+      "pid": "5d10ed3c91530a9ef78f6393345426be",
+      "name": "MSDD90325-2USB3.0AA-2m双USB带2米电缆",
+      "type": "wire",
+      "certificates": [],
+      "diagram": [
+        "MSDD90325-2USB3.0AA-0.5M.step"
+      ],
+      "show": [
+        "888.png"
+      ],
+      "detail": {
+        "title": "公转母USB连接器",
+        "description": "型号：MSDD90325-2USB3.0AA-2m双USB带2米电缆<br>品牌：FUZUKI富崎<br>材质：ABS<br>开孔尺寸：22mm<br>IP：54<br>安装方式：后螺母安装 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=940038806043&pisk=gwAIW8ZnzkqIsr9Ad_uaGRJt8gf5dVl2ez_JoUFUy6Cd2zt9ykQ8wwCOXZQCe7khTT1WXGRFYe5d27tyzB-yyQ7JN6AwL7SEx_TJ0_iq0jl2-eXlwmoVO9G1a6b52wC84NBO-__dXOH6seflw0w-WeCX-H0r8f4dyN31zazd23ILXRIGPJEp2MBTXablwgKJ2lFOPwN8JgB-5fQcygFLw7LTBabY9_CJ21FOjaCRJ3C-5FIGyXH3farC7egfRsv5dVEe6GN8wC_tqiLIkW_2OwOGcedQ5P6lR9svJGiLlK4GBUXWZzV5QepDqZKLvD1J5ZtflHMzrM99uBSelyNB86OWyLBsJXL1OM6k19U8d69JxQ6Hdz0DW6KMniXKIcb6TIW5mOZtvF81vt9WYcVRYKT9ftRabS59kd114eNVcirzFP60NNsq5VwuEotUrIp4oPLOpNbKgVg_bQXdSNwi5VZCv9QG7w3s5-zR.&spm=a1z10.3-c-s.w4002-18367346758.33.6f6136ebCDkVxd&skuId=6003644626847",
+        "priority": 1
+      }
+    },
+    {
+      "pid": "1fc8f7d1ecbc7aa8aee8459a537d7a05",
+      "name": "MSDD90325-2USB3.0AA-3m双USB带3米电缆",
+      "type": "wire",
+      "certificates": [],
+      "diagram": [
+        "MSDD90325-2USB3.0AA-0.5M.step"
+      ],
+      "show": [
+        "3m.png"
+      ],
+      "detail": {
+        "title": "公转母USB连接器",
+        "description": "型号：MSDD90325-2USB3.0AA-3m双USB带3米电缆<br>品牌：FUZUKI富崎<br>材质：ABS<br>开孔尺寸：22mm<br>IP：54<br>安装方式：后螺母安装 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=940038806043&pisk=gwAIW8ZnzkqIsr9Ad_uaGRJt8gf5dVl2ez_JoUFUy6Cd2zt9ykQ8wwCOXZQCe7khTT1WXGRFYe5d27tyzB-yyQ7JN6AwL7SEx_TJ0_iq0jl2-eXlwmoVO9G1a6b52wC84NBO-__dXOH6seflw0w-WeCX-H0r8f4dyN31zazd23ILXRIGPJEp2MBTXablwgKJ2lFOPwN8JgB-5fQcygFLw7LTBabY9_CJ21FOjaCRJ3C-5FIGyXH3farC7egfRsv5dVEe6GN8wC_tqiLIkW_2OwOGcedQ5P6lR9svJGiLlK4GBUXWZzV5QepDqZKLvD1J5ZtflHMzrM99uBSelyNB86OWyLBsJXL1OM6k19U8d69JxQ6Hdz0DW6KMniXKIcb6TIW5mOZtvF81vt9WYcVRYKT9ftRabS59kd114eNVcirzFP60NNsq5VwuEotUrIp4oPLOpNbKgVg_bQXdSNwi5VZCv9QG7w3s5-zR.&spm=a1z10.3-c-s.w4002-18367346758.33.6f6136ebCDkVxd&skuId=6003644626847",
+        "priority": 1
+      }
+    },
+    {
+      "pid": "f0daeec9604689114f990a3175db3797",
+      "name": "MSDD90325-2USB3.0AA-5m双USB带5米电缆",
+      "type": "wire",
+      "certificates": [],
+      "diagram": [
+        "MSDD90325-2USB3.0AA-0.5M.step"
+      ],
+      "show": [
+        "1-0.png"
+      ],
+      "detail": {
+        "title": "公转母USB连接器",
+        "description": "型号：MSDD90325-2USB3.0-10mUSB带10米电缆<br>品牌：FUZUKI富崎<br>材质：ABS<br>开孔尺寸：22mm<br>IP：54<br>安装方式：后螺母安装 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=940038806043&pisk=gwAIW8ZnzkqIsr9Ad_uaGRJt8gf5dVl2ez_JoUFUy6Cd2zt9ykQ8wwCOXZQCe7khTT1WXGRFYe5d27tyzB-yyQ7JN6AwL7SEx_TJ0_iq0jl2-eXlwmoVO9G1a6b52wC84NBO-__dXOH6seflw0w-WeCX-H0r8f4dyN31zazd23ILXRIGPJEp2MBTXablwgKJ2lFOPwN8JgB-5fQcygFLw7LTBabY9_CJ21FOjaCRJ3C-5FIGyXH3farC7egfRsv5dVEe6GN8wC_tqiLIkW_2OwOGcedQ5P6lR9svJGiLlK4GBUXWZzV5QepDqZKLvD1J5ZtflHMzrM99uBSelyNB86OWyLBsJXL1OM6k19U8d69JxQ6Hdz0DW6KMniXKIcb6TIW5mOZtvF81vt9WYcVRYKT9ftRabS59kd114eNVcirzFP60NNsq5VwuEotUrIp4oPLOpNbKgVg_bQXdSNwi5VZCv9QG7w3s5-zR.&spm=a1z10.3-c-s.w4002-18367346758.33.6f6136ebCDkVxd&skuId=6003644626847",
+        "priority": 1
+      }
+    },
+    {
+      "pid": "de55e9fed1b43c9d6402dd71545ed7b7",
+      "name": "MSDD90325-USB3.0-10mUSB带10米电缆",
+      "type": "wire",
+      "certificates": [],
+      "diagram": [
+        "MSDD90325-USB3.0-0.5M(1).STEP"
+      ],
+      "show": [
+        "10M.png"
+      ],
+      "detail": {
+        "title": "公转母USB连接器",
+        "description": "型号：MSDD90325-USB3.0-10mUSB带10米电缆<br>品牌：FUZUKI富崎<br>材质：ABS<br>开孔尺寸：22mm<br>IP：54<br>安装方式：后螺母安装 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=940038806043&pisk=gwAIW8ZnzkqIsr9Ad_uaGRJt8gf5dVl2ez_JoUFUy6Cd2zt9ykQ8wwCOXZQCe7khTT1WXGRFYe5d27tyzB-yyQ7JN6AwL7SEx_TJ0_iq0jl2-eXlwmoVO9G1a6b52wC84NBO-__dXOH6seflw0w-WeCX-H0r8f4dyN31zazd23ILXRIGPJEp2MBTXablwgKJ2lFOPwN8JgB-5fQcygFLw7LTBabY9_CJ21FOjaCRJ3C-5FIGyXH3farC7egfRsv5dVEe6GN8wC_tqiLIkW_2OwOGcedQ5P6lR9svJGiLlK4GBUXWZzV5QepDqZKLvD1J5ZtflHMzrM99uBSelyNB86OWyLBsJXL1OM6k19U8d69JxQ6Hdz0DW6KMniXKIcb6TIW5mOZtvF81vt9WYcVRYKT9ftRabS59kd114eNVcirzFP60NNsq5VwuEotUrIp4oPLOpNbKgVg_bQXdSNwi5VZCv9QG7w3s5-zR.&spm=a1z10.3-c-s.w4002-18367346758.33.6f6136ebCDkVxd&skuId=6003644626847",
+        "priority": 1
+      }
+    },
+    {
       "pid": "61f92c3781d4d8f42238ca15f019ac3c",
       "name": "MSDD90325-USB3.0-1m USB带1米电缆",
       "type": "wire",
       "certificates": [],
-      "diagram": [],
+      "diagram": [
+        "MSDD90325-USB3.0-0.5M(1).STEP"
+      ],
       "show": [
         "44.jpg"
       ],
       "detail": {
         "title": "公转母USB连接器",
         "description": "型号：MSDD90325-USB3.0-1m USB带1米电缆<br>品牌：FUZUKI富崎<br>材质：ABS<br>开孔尺寸：22mm<br>IP：54<br>安装方式：后螺母安装 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=940038806043&pisk=gwAIW8ZnzkqIsr9Ad_uaGRJt8gf5dVl2ez_JoUFUy6Cd2zt9ykQ8wwCOXZQCe7khTT1WXGRFYe5d27tyzB-yyQ7JN6AwL7SEx_TJ0_iq0jl2-eXlwmoVO9G1a6b52wC84NBO-__dXOH6seflw0w-WeCX-H0r8f4dyN31zazd23ILXRIGPJEp2MBTXablwgKJ2lFOPwN8JgB-5fQcygFLw7LTBabY9_CJ21FOjaCRJ3C-5FIGyXH3farC7egfRsv5dVEe6GN8wC_tqiLIkW_2OwOGcedQ5P6lR9svJGiLlK4GBUXWZzV5QepDqZKLvD1J5ZtflHMzrM99uBSelyNB86OWyLBsJXL1OM6k19U8d69JxQ6Hdz0DW6KMniXKIcb6TIW5mOZtvF81vt9WYcVRYKT9ftRabS59kd114eNVcirzFP60NNsq5VwuEotUrIp4oPLOpNbKgVg_bQXdSNwi5VZCv9QG7w3s5-zR.&spm=a1z10.3-c-s.w4002-18367346758.33.6f6136ebCDkVxd&skuId=6003644626847",
+        "priority": 1
+      }
+    },
+    {
+      "pid": "f8998d0d075876a548be73e94b9d166e",
+      "name": "MSDD90325-USB3.0-2mUSB带2米电缆",
+      "type": "wire",
+      "certificates": [],
+      "diagram": [
+        "MSDD90325-USB3.0-0.5M(1).STEP"
+      ],
+      "show": [
+        "2232323.png"
+      ],
+      "detail": {
+        "title": "公转母USB连接器",
+        "description": "型号：MSDD90325-USB3.0-2mUSB带2米电缆<br>品牌：FUZUKI富崎<br>材质：ABS<br>开孔尺寸：22mm<br>IP：54<br>安装方式：后螺母安装 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=940038806043&pisk=gwAIW8ZnzkqIsr9Ad_uaGRJt8gf5dVl2ez_JoUFUy6Cd2zt9ykQ8wwCOXZQCe7khTT1WXGRFYe5d27tyzB-yyQ7JN6AwL7SEx_TJ0_iq0jl2-eXlwmoVO9G1a6b52wC84NBO-__dXOH6seflw0w-WeCX-H0r8f4dyN31zazd23ILXRIGPJEp2MBTXablwgKJ2lFOPwN8JgB-5fQcygFLw7LTBabY9_CJ21FOjaCRJ3C-5FIGyXH3farC7egfRsv5dVEe6GN8wC_tqiLIkW_2OwOGcedQ5P6lR9svJGiLlK4GBUXWZzV5QepDqZKLvD1J5ZtflHMzrM99uBSelyNB86OWyLBsJXL1OM6k19U8d69JxQ6Hdz0DW6KMniXKIcb6TIW5mOZtvF81vt9WYcVRYKT9ftRabS59kd114eNVcirzFP60NNsq5VwuEotUrIp4oPLOpNbKgVg_bQXdSNwi5VZCv9QG7w3s5-zR.&spm=a1z10.3-c-s.w4002-18367346758.33.6f6136ebCDkVxd&skuId=6003644626847",
+        "priority": 1
+      }
+    },
+    {
+      "pid": "ca100062d55fc5e20c63f6c57257f553",
+      "name": "MSDD90325-USB3.0-3mUSB带3米电缆",
+      "type": "wire",
+      "certificates": [],
+      "diagram": [
+        "MSDD90325-USB3.0-0.5M(1).STEP"
+      ],
+      "show": [
+        "3m.png"
+      ],
+      "detail": {
+        "title": "公转母USB连接器",
+        "description": "型号：MSDD90325-USB3.0-3mUSB带3米电缆<br>品牌：FUZUKI富崎<br>材质：ABS<br>开孔尺寸：22mm<br>IP：54<br>安装方式：后螺母安装 ",
+        "taobao_link": "https://item.taobao.com/item.htm?id=940038806043&pisk=gwAIW8ZnzkqIsr9Ad_uaGRJt8gf5dVl2ez_JoUFUy6Cd2zt9ykQ8wwCOXZQCe7khTT1WXGRFYe5d27tyzB-yyQ7JN6AwL7SEx_TJ0_iq0jl2-eXlwmoVO9G1a6b52wC84NBO-__dXOH6seflw0w-WeCX-H0r8f4dyN31zazd23ILXRIGPJEp2MBTXablwgKJ2lFOPwN8JgB-5fQcygFLw7LTBabY9_CJ21FOjaCRJ3C-5FIGyXH3farC7egfRsv5dVEe6GN8wC_tqiLIkW_2OwOGcedQ5P6lR9svJGiLlK4GBUXWZzV5QepDqZKLvD1J5ZtflHMzrM99uBSelyNB86OWyLBsJXL1OM6k19U8d69JxQ6Hdz0DW6KMniXKIcb6TIW5mOZtvF81vt9WYcVRYKT9ftRabS59kd114eNVcirzFP60NNsq5VwuEotUrIp4oPLOpNbKgVg_bQXdSNwi5VZCv9QG7w3s5-zR.&spm=a1z10.3-c-s.w4002-18367346758.33.6f6136ebCDkVxd&skuId=6003644626847",
+        "priority": 1
+      }
+    },
+    {
+      "pid": "898ff2a386dd7793d3fe0990034f123d",
+      "name": "MSDD90325-USB3.0-3mUSB带5米电缆",
+      "type": "wire",
+      "certificates": [],
+      "diagram": [
+        "MSDD90325-USB3.0-0.5M(1).STEP"
+      ],
+      "show": [
+        "232323.png"
+      ],
+      "detail": {
+        "title": "公转母USB连接器",
+        "description": "型号：MSDD90325-USB3.0-3mUSB带5米电缆<br>品牌：FUZUKI富崎<br>材质：ABS<br>开孔尺寸：22mm<br>IP：54<br>安装方式：后螺母安装 ",
         "taobao_link": "https://item.taobao.com/item.htm?id=940038806043&pisk=gwAIW8ZnzkqIsr9Ad_uaGRJt8gf5dVl2ez_JoUFUy6Cd2zt9ykQ8wwCOXZQCe7khTT1WXGRFYe5d27tyzB-yyQ7JN6AwL7SEx_TJ0_iq0jl2-eXlwmoVO9G1a6b52wC84NBO-__dXOH6seflw0w-WeCX-H0r8f4dyN31zazd23ILXRIGPJEp2MBTXablwgKJ2lFOPwN8JgB-5fQcygFLw7LTBabY9_CJ21FOjaCRJ3C-5FIGyXH3farC7egfRsv5dVEe6GN8wC_tqiLIkW_2OwOGcedQ5P6lR9svJGiLlK4GBUXWZzV5QepDqZKLvD1J5ZtflHMzrM99uBSelyNB86OWyLBsJXL1OM6k19U8d69JxQ6Hdz0DW6KMniXKIcb6TIW5mOZtvF81vt9WYcVRYKT9ftRabS59kd114eNVcirzFP60NNsq5VwuEotUrIp4oPLOpNbKgVg_bQXdSNwi5VZCv9QG7w3s5-zR.&spm=a1z10.3-c-s.w4002-18367346758.33.6f6136ebCDkVxd&skuId=6003644626847",
         "priority": 1
       }

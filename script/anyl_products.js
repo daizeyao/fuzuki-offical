@@ -8,7 +8,7 @@ const { Worker } = require('worker_threads');
 const MAX_CONCURRENT = 16;
 
 // 定义输入和输出路径
-const productsDir = path.join(__dirname, '../../fuzuki-assets/products-260111');
+const productsDir = path.join(__dirname, '../../fuzuki-assets/products-260111-2');
 const outputFile = path.join(__dirname, '../src/constants/products.json');
 const workerPath = path.join(__dirname, 'compress-worker.js');
 
@@ -305,6 +305,7 @@ function parseProductsDirectory(dir) {
             fs.writeFileSync(contentPath, JSON.stringify(parsedDetail, null, 2), 'utf-8');
 
             productData.detail = parsedDetail;
+            productData.detail['priority'] = productData.detail?.priority ?? 1;
           } catch (error) {
             console.error(`解析 detail.json 文件时出错: ${contentPath}`, error);
           }
@@ -331,11 +332,11 @@ function parseProductsDirectory(dir) {
 async function main() {
   try {
     console.log('Starting: image compression (ffmpeg) before parsing...');
-    if (isFfmpegAvailable()) {
-      await compressImagesInDirectory(productsDir);
-    } else {
-      console.warn('ffmpeg not found in PATH. Skipping image compression.');
-    }
+    // if (isFfmpegAvailable()) {
+    //   await compressImagesInDirectory(productsDir);
+    // } else {
+    //   console.warn('ffmpeg not found in PATH. Skipping image compression.');
+    // }
 
     // 统计文件
     statisticsFiles(productsDir);
