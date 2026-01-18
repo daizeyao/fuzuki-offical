@@ -8,7 +8,7 @@ const { Worker } = require('worker_threads');
 const MAX_CONCURRENT = 16;
 
 // 定义输入和输出路径
-const productsDir = path.join(__dirname, '../../fuzuki-assets/products-260111-2');
+const productsDir = path.join(__dirname, '../../fuzuki-assets/products-260118');
 const outputFile = path.join(__dirname, '../src/constants/products.json');
 const workerPath = path.join(__dirname, 'compress-worker.js');
 
