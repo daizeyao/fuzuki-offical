@@ -14,13 +14,13 @@ const Products = () => {
     },
     {
       key: 'panel',
-      img: require('@/assets/index_products/panel.jpg'),
+      img: require('@/assets/index_products/panel.png'),
       alt: 'Panel',
       label: intl.formatMessage({ id: 'products.panel' }),
     },
     {
       key: 'wire',
-      img: require('@/assets/index_products/wire.jpg'),
+      img: require('@/assets/index_products/wire.png'),
       alt: 'Wire',
       label: intl.formatMessage({ id: 'products.wire' }),
     },
