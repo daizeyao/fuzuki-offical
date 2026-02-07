@@ -39,7 +39,7 @@ export default {
   'about.history.1995.desc': '公司成立，开始提供基础服务',
   'about.history.2015.year': '2015年至今',
   'about.history.2015.desc': '业务拓展，开始服务全国客户',
-  'about.experience.years': '20+ 年',
+  'about.experience.years': '30+ 年',
   'about.experience.label': '行业经验',
 
   'features.title': '我们的功能',

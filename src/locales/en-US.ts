@@ -40,7 +40,7 @@ export default {
   'about.history.1995.desc': 'Company established, began offering basic services',
   'about.history.2015.year': '2015 to Present',
   'about.history.2015.desc': 'Business expanded to serve clients nationwide',
-  'about.experience.years': '20+ Years',
+  'about.experience.years': '30+ Years',
   'about.experience.label': 'Industry Experience',
 
   'features.title': 'Our Features',
