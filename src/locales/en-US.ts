@@ -106,7 +106,7 @@ export default {
   'phone': "+86 13961210199",
   'email': "hongdian@126.com",
   'wechat': "WeChat Enterprise",
-  'copyright': "© 2025 Fuzuki. All rights reserved",
+  'copyright': "© 2026 Fuzuki. All rights reserved",
 
   'productsShow.title': 'Featured Product Showcase',
   'productsShow.moreLink': 'More details on our Taobao store',

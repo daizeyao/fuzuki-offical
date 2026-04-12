@@ -1,6 +1,60 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { useIntl } from 'umi';
+
+type LazyImageProps = {
+  src: string;
+  alt: string;
+  className?: string;
+};
+
+const LazyImage = ({ src, alt, className }: LazyImageProps) => {
+  const [isInView, setIsInView] = useState(false);
+  const wrapperRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    const target = wrapperRef.current;
+    if (!target || isInView) {
+      return;
+    }
+
+    if (!('IntersectionObserver' in window)) {
+      setIsInView(true);
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsInView(true);
+          observer.disconnect();
+        }
+      },
+      {
+        root: null,
+        // Start loading a little early for smoother visual experience.
+        rootMargin: '120px 0px',
+        threshold: 0.01,
+      },
+    );
+
+    observer.observe(target);
+
+    return () => {
+      observer.disconnect();
+    };
+  }, [isInView]);
+
+  return (
+    <div ref={wrapperRef} className="w-64 h-40 rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-800">
+      {isInView ? (
+        <img src={src} alt={alt} loading="lazy" className={className} />
+      ) : (
+        <div className="w-full h-full animate-pulse bg-gray-200 dark:bg-gray-700" aria-hidden="true" />
+      )}
+    </div>
+  );
+};
 
 const Products = () => {
   const intl = useIntl();
@@ -61,7 +115,7 @@ const Products = () => {
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
               >
-                <img src={product.img} alt={product.alt} className="w-64 h-auto rounded-lg shadow-md" />
+                <LazyImage src={product.img} alt={product.alt} className="w-full h-full object-cover shadow-md" />
                 <div className="text-center mt-2 text-lg text-gray-500 dark:text-gray-400">{product.label}</div>
               </motion.div>
             ))}

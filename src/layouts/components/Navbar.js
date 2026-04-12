@@ -4,7 +4,7 @@ import ThemeToggle from '../../components/ThemeToggle';
 import { TAOBAO_URL, NAV_ITEMS } from '@/constants';
 import { SelectLang, useIntl } from 'umi';
 
-const logoImg = require('@/assets/logo.png');
+const logoImg = require('@/assets/logo.webp');
 
 const Navbar = ({ toggle }) => {
   const [scrolled, setScrolled] = useState(false);

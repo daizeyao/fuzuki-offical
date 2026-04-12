@@ -105,7 +105,7 @@ export default {
   'phone': "+86 13961210199",
   'email': "hongdian@126.com",
   'wechat': "企业微信",
-  'copyright': "© 2025 Fuzuki. 保留所有权利",
+  'copyright': "© 2026 Fuzuki. 保留所有权利",
 
   'productsShow.title': '常用产品展示',
   'productsShow.moreLink': '更多内容详见淘宝店铺',
