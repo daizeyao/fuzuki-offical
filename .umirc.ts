@@ -26,8 +26,8 @@ export default defineConfig({
   codeSplitting: {
     jsStrategy: 'granularChunks',
   },
-  base: '/fuzuki-offical/',
-  publicPath: '/fuzuki-offical/',
+  base: '/',
+  publicPath: '/',
   routes: ROUTES,
   npmClient: "npm",
   tailwindcss: {},
