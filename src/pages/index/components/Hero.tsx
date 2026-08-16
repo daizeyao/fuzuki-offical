@@ -1,12 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useIntl } from 'umi';
+import { PRODUCT_SAMPLE_PDF } from '@/constants';
+import PDFModal from '@/components/PDFModal';
 
 const Hero = () => {
   const intl = useIntl();
+  const [showPDFModal, setShowPDFModal] = useState(false);
+
+  const handleDownloadPDF = () => {
+    const link = document.createElement('a');
+    link.href = PRODUCT_SAMPLE_PDF;
+    link.setAttribute('download', 'FUZUKI综合产品样本2026.pdf');
+    link.target = '_blank';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    setShowPDFModal(false);
+  };
+
+  const handleLearnMore = () => {
+    setShowPDFModal(true);
+  };
 
   return (
-    <section className="relative bg-light dark:bg-gray-800 min-h-[calc(100vh-80px)] pt-[15vh] flex items-center overflow-hidden">
+    <>
+      <section className="relative bg-light dark:bg-gray-800 min-h-[calc(100vh-80px)] pt-[15vh] flex items-center overflow-hidden">
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 right-10 w-64 h-64 bg-secondary/10 rounded-full mix-blend-multiply filter blur-xl animate-float"></div>
         <div className="absolute bottom-20 left-10 w-72 h-72 bg-primary/10 dark:bg-gray-700/30 rounded-full mix-blend-multiply filter blur-xl animate-float" style={{ animationDelay: '2s' }}></div>
@@ -27,7 +46,7 @@ const Hero = () => {
               {intl.formatMessage({ id: 'hero.description' })}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <a className="btn" href="#features">{intl.formatMessage({ id: 'hero.cta.learnMore' })}</a>
+              <button className="btn" onClick={handleLearnMore}>{intl.formatMessage({ id: 'hero.cta.learnMore' })}</button>
               <a className="btn btn-outline dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-gray-900" href="#footer">
                 {intl.formatMessage({ id: 'hero.cta.contact' })}
               </a>
@@ -99,6 +118,15 @@ const Hero = () => {
         </div>
       </div>
     </section>
+
+    <PDFModal
+      isOpen={showPDFModal}
+      onClose={() => setShowPDFModal(false)}
+      onConfirm={handleDownloadPDF}
+      title={intl.formatMessage({ id: 'modal.title' })}
+      description={intl.formatMessage({ id: 'modal.description' })}
+    />
+    </>
   );
 };
 

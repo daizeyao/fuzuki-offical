@@ -10,6 +10,7 @@ export default {
   'navbar.home': '首页',
   'navbar.center': '产品中心',
   'navbar.list': '所有产品',
+  'navbar.downloadCatalog': '综合产品一览',
 
   'hero.headline': '高品质、高性能的工业连接解决方案',
   'hero.description': '欢迎来到富崎Fuzuki，我们是一家专注于工业连接器及转接头研发、生产与销售的高新技术企业。',
@@ -25,6 +26,12 @@ export default {
   'products.panel': '前置面板接口',
   'products.wire': '面板安装线束',
   'products.other': '其他',
+  'products.learnMore': '了解更多',
+
+  'modal.cancel': '取消',
+  'modal.confirm': '确认下载',
+  'modal.title': '综合产品一览',
+  'modal.description': '点击"确认下载"获取我们的综合产品样本PDF，了解更多富崎的产品信息和技术规格。',
 
   'about.title': '关于我们',
   'about.subtitle': '了解我们的故事和使命',

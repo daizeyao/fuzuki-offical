@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { useIntl } from 'umi';
+import { PRODUCT_SAMPLE_PDF } from '@/constants';
+import PDFModal from '@/components/PDFModal';
 
 type LazyImageProps = {
   src: string;
@@ -58,6 +60,7 @@ const LazyImage = ({ src, alt, className }: LazyImageProps) => {
 
 const Products = () => {
   const intl = useIntl();
+  const [showPDFModal, setShowPDFModal] = useState(false);
 
   const productList = [
     {
@@ -90,8 +93,24 @@ const Products = () => {
     window.location.href = `/products-list?type=${type}`;
   };
 
+  const handleDownloadPDF = () => {
+    const link = document.createElement('a');
+    link.href = PRODUCT_SAMPLE_PDF;
+    link.setAttribute('download', 'FUZUKI综合产品样本2026.pdf');
+    link.target = '_blank';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    setShowPDFModal(false);
+  };
+
+  const handleLearnMore = () => {
+    setShowPDFModal(true);
+  };
+
   return (
-    <section id="products" className="py-20 dark:bg-gray-900">
+    <>
+      <section id="products" className="py-20 dark:bg-gray-900">
       <div className="container">
         <motion.div
           className="section-title"
@@ -120,9 +139,28 @@ const Products = () => {
               </motion.div>
             ))}
           </div>
+          <div className="flex justify-center mt-12">
+            <motion.button
+              onClick={handleLearnMore}
+              className="btn bg-primary hover:bg-primary-dark text-white px-8 py-3 rounded-lg font-semibold transition-colors"
+              whileHover={{ scale: 1.05 }}
+              transition={{ duration: 0.3 }}
+            >
+              {intl.formatMessage({ id: 'products.learnMore' })}
+            </motion.button>
+          </div>
         </motion.div>
       </div>
     </section>
+
+    <PDFModal
+      isOpen={showPDFModal}
+      onClose={() => setShowPDFModal(false)}
+      onConfirm={handleDownloadPDF}
+      title={intl.formatMessage({ id: 'modal.title' })}
+      description={intl.formatMessage({ id: 'modal.description' })}
+    />
+    </>
   );
 };
 

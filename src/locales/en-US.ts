@@ -11,6 +11,7 @@ export default {
   'navbar.home': 'Home',
   'navbar.center': 'Product Center',
   'navbar.list': 'All Products',
+  'navbar.downloadCatalog': 'Product Catalog',
 
   'hero.headline': 'High-Quality Connect Solutions',
   'hero.description': 'Welcome to Fuzuki, a high-tech enterprise specializing in the R&D, production, and sales of industrial connectors and adapters.',
@@ -26,6 +27,12 @@ export default {
   'products.panel': 'Front Panel Interfaces',
   'products.wire': 'Panel Mount Wiring Harnesses',
   'products.other': 'Others',
+  'products.learnMore': 'Learn More',
+
+  'modal.cancel': 'Cancel',
+  'modal.confirm': 'Download',
+  'modal.title': 'Product Catalog',
+  'modal.description': 'Click "Download" to get our comprehensive product sample PDF and learn more about Fuzuki\'s products and technical specifications.',
 
   'about.title': 'About Us',
   'about.subtitle': 'Discover our story and mission',
